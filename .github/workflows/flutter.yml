@@ -13,24 +13,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # إعداد Flutter على بيئة العمل
+    # 1. التحقق من الكود
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    # 2. تثبيت إصدار Flutter المطلوب
     - name: Install Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: 'stable'
+        flutter-version: '3.22.0'
 
-    # تثبيت الحزم اللازمة
+    # 3. تثبيت الاعتماديات (Java SDK)
     - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -y openjdk-11-jdk
+
+    # 4. التحقق من الإصدار المثبت
+    - name: Verify Flutter version
+      run: flutter --version
+
+    # 5. تثبيت الحزم المطلوبة
+    - name: Install Dart dependencies
       run: flutter pub get
 
-    # بناء ملف APK
+    # 6. بناء التطبيق لإصدار APK
     - name: Build APK
       run: flutter build apk --release
 
-    # حفظ ملف APK كأرتيفاكت
+    # 7. رفع ملف APK كـ Artifact
     - name: Upload APK
       uses: actions/upload-artifact@v3
       with:
