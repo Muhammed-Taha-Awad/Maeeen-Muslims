@@ -1,16 +1,5 @@
 # Maeeen
 
-A new Flutter project.
+"Maeeen - Your Spiritual Companion on the Path of Worship"
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+"Maeeen" is the app that accompanies you at every moment of your life, helping you draw closer to Allah and perform acts of worship and obedience with a pure heart and sincere intentions. Simply, the app assists you in organizing your prayer times, calculating your zakat, and strengthening your connection through dhikr and supplication. Whether you are in moments of reflection or amidst the hustle and bustle of daily life, "Maeeen" helps you stay close to Allah at every step, reminding your heart that worship is not just a duty, but a source of tranquility and peace that fills your life with inner calm. Let "Maeeen" be your guide in your spiritual journey towards a life filled with piety and blessings.
