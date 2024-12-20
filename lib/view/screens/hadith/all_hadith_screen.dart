@@ -80,7 +80,7 @@ class _AllHadithScreenState extends State<AllHadithScreen> {
                                 // serial number show ==>
                                 Text(
                                   (index + 1).toString(),
-                                  style: robotoMedium.copyWith(
+                                  style: elmessiriMedium.copyWith(
                                     fontSize: Dimensions.FONT_SIZE_DEFAULT,
                                     color: Theme.of(context)
                                         .textTheme
@@ -93,14 +93,14 @@ class _AllHadithScreenState extends State<AllHadithScreen> {
                             title: Text(
                               hadithController.hadithModel!.hadiths!
                                   .data![index].hadithEnglish!,
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                   fontSize: Dimensions.FONT_SIZE_DEFAULT,
                                   overflow: TextOverflow.ellipsis),
                             ),
                             subtitle: Text(
                               "${"writer:".tr} ${hadithController.hadithModel!.hadiths!.data![index].book!.writerName!}"
                                   .tr,
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                   fontSize: Dimensions.FONT_SIZE_DEFAULT),
                             ),
                           ),

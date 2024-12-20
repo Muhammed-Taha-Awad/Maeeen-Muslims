@@ -38,7 +38,7 @@ class SettingsItem extends StatelessWidget {
           ),
           title: Text(
             title,
-            style: robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_LARGE),
+            style: elmessiriMedium.copyWith(fontSize: Dimensions.FONT_SIZE_LARGE),
           ),
         ),
       ),

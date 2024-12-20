@@ -62,7 +62,7 @@ class SifatNameDetailsScreen extends StatelessWidget {
                         Center(
                           child: Text(
                             apiData!.data!.enName.toString(),
-                            style: robotoMedium.copyWith(
+                            style: elmessiriMedium.copyWith(
                                 fontSize: Dimensions.FONT_SIZE_DEFAULT),
                           ),
                         ),
@@ -93,7 +93,7 @@ class SifatNameDetailsScreen extends StatelessWidget {
                           child: Text(
                             apiData.data!.translatedName.toString(),
                             textAlign: TextAlign.center,
-                            style: robotoMedium.copyWith(
+                            style: elmessiriMedium.copyWith(
                               fontSize: Dimensions.FONT_SIZE_LARGE,
                               color:
                                   Theme.of(context).textTheme.bodyMedium!.color,
@@ -106,7 +106,7 @@ class SifatNameDetailsScreen extends StatelessWidget {
                         Text(
                           "meaning".tr,
                           textAlign: TextAlign.start,
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                               fontSize: Dimensions.FONT_SIZE_OVER_LARGE),
                         ),
                         const SizedBox(height: 10),
@@ -115,7 +115,7 @@ class SifatNameDetailsScreen extends StatelessWidget {
                         Text(
                           apiData.data!.meaning.toString(),
                           textAlign: TextAlign.justify,
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                             fontSize: Dimensions.FONT_SIZE_DEFAULT,
                             color:
                                 Theme.of(context).textTheme.bodyMedium!.color,
@@ -128,7 +128,7 @@ class SifatNameDetailsScreen extends StatelessWidget {
                         Text(
                           "benefits".tr,
                           textAlign: TextAlign.start,
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                               fontSize: Dimensions.FONT_SIZE_OVER_LARGE),
                         ),
                         const SizedBox(height: 10),
@@ -137,7 +137,7 @@ class SifatNameDetailsScreen extends StatelessWidget {
                         Text(
                           apiData.data!.nameBenefits.toString(),
                           textAlign: TextAlign.justify,
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                             fontSize: Dimensions.FONT_SIZE_DEFAULT,
                             color:
                                 Theme.of(context).textTheme.bodyMedium!.color,

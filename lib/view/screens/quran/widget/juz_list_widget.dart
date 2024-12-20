@@ -40,7 +40,7 @@ class JuzListWidget extends StatelessWidget {
                                 horizontal: Dimensions.FONT_SIZE_DEFAULT),
                             child: Text(
                               " ${juzListController.juzListApiData!.data![juz].juzTranslateName}: ${juzListController.juzListApiData!.data![juz].juzNumber}",
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                 fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                                 color: Theme.of(context).primaryColor,
                               ),
@@ -95,7 +95,7 @@ class JuzListWidget extends StatelessWidget {
                                             ),
                                             Text(
                                               apiData.serialNumber.toString(),
-                                              style: robotoMedium.copyWith(
+                                              style: elmessiriMedium.copyWith(
                                                 color: Theme.of(context)
                                                     .textTheme
                                                     .bodyMedium!
@@ -107,7 +107,7 @@ class JuzListWidget extends StatelessWidget {
                                         title: Obx(
                                           () => Text(
                                             apiData.translatedName.toString(),
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                               fontSize: Get.find<
                                                       QuranSettingsController>()
                                                   .translateFontSize
@@ -118,7 +118,7 @@ class JuzListWidget extends StatelessWidget {
                                         subtitle: Obx(
                                           () => Text(
                                             "${apiData.versesTranslateName}: ${apiData.verseNumber}",
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                               fontSize: Get.find<
                                                           QuranSettingsController>()
                                                       .translateFontSize

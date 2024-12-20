@@ -73,7 +73,7 @@ class _DonatedFilterScreenState extends State<DonatedFilterScreen> {
                       ),
                       TextFormField(
                         controller: donationController.emailController,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                             fontSize: Dimensions.FONT_SIZE_LARGE),
                         decoration: getTextInputDecoration(context).copyWith(
                           filled: true,

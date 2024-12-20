@@ -79,7 +79,7 @@ class _DonationTypeScreenState extends State<DonationTypeScreen> {
                               ),
                               Text(
                                 apiData!.id.toString(),
-                                style: robotoMedium.copyWith(
+                                style: elmessiriMedium.copyWith(
                                   fontSize: Dimensions.FONT_SIZE_SMALL,
                                   color: Theme.of(context)
                                       .textTheme
@@ -91,7 +91,7 @@ class _DonationTypeScreenState extends State<DonationTypeScreen> {
                           ),
                           title: Text(
                             apiData.name.toString(),
-                            style: robotoMedium.copyWith(
+                            style: elmessiriMedium.copyWith(
                               fontSize: Get.find<QuranSettingsController>()
                                   .translateFontSize
                                   .value,

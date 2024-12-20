@@ -61,7 +61,7 @@ class SuraListWidget extends StatelessWidget {
                             ),
                             Text(
                               apiData.serialNumber.toString(),
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                 fontSize: Dimensions.FONT_SIZE_SMALL,
                                 color: Theme.of(context)
                                     .textTheme
@@ -74,7 +74,7 @@ class SuraListWidget extends StatelessWidget {
                         title: Obx(
                           () => Text(
                             apiData.translateName.toString(),
-                            style: robotoMedium.copyWith(
+                            style: elmessiriMedium.copyWith(
                               fontSize: Get.find<QuranSettingsController>()
                                   .translateFontSize
                                   .value,
@@ -84,7 +84,7 @@ class SuraListWidget extends StatelessWidget {
                         subtitle: Obx(
                           () => Text(
                             "${apiData.versesTranslateName}: ${apiData.versesCount}",
-                            style: robotoMedium.copyWith(
+                            style: elmessiriMedium.copyWith(
                               fontSize: Get.find<QuranSettingsController>()
                                       .translateFontSize
                                       .value -

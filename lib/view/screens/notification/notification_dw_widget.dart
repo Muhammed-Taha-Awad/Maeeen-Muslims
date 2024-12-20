@@ -91,7 +91,7 @@ class _NofificationDWWidgetState extends State<NofificationDWWidget> {
                       ),
                       Text(
                         "notification_settings".tr,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_LARGE,
                         ),
                       ),
@@ -109,12 +109,12 @@ class _NofificationDWWidgetState extends State<NofificationDWWidget> {
                     children: [
                       Text(
                         'battery_optimize_message'.tr,
-                        style: robotoMedium.copyWith(),
+                        style: elmessiriMedium.copyWith(),
                       ),
                       const SizedBox(height: 10),
                       Text(
                         'go_to_settings_page_message'.tr,
-                        style: robotoMedium.copyWith(),
+                        style: elmessiriMedium.copyWith(),
                       ),
                     ],
                   ),
@@ -144,7 +144,7 @@ class _NofificationDWWidgetState extends State<NofificationDWWidget> {
                                   width: Dimensions.PADDING_SIZE_DEFAULT),
                               Text(
                                 salat.name.toLowerCase().tr,
-                                style: robotoMedium,
+                                style: elmessiriMedium,
                               ),
                             ],
                           ),

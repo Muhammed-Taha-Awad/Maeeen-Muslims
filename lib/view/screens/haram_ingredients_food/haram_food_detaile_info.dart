@@ -35,7 +35,7 @@ class HaramFoodDetaileInfoScreen extends StatelessWidget {
                     .haramDescription
                     .toString(),
                 textAlign: TextAlign.justify,
-                style: robotoMedium.copyWith(),
+                style: elmessiriMedium.copyWith(),
               ),
             ],
           ),

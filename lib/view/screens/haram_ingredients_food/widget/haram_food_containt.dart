@@ -19,7 +19,7 @@ class HaramFoodContaint extends StatelessWidget {
         // title ===>
         Text(
           title,
-          style: robotoMedium.copyWith(
+          style: elmessiriMedium.copyWith(
             fontSize: Dimensions.FONT_SIZE_LARGE,
             color: Theme.of(context).primaryColor,
           ),
@@ -30,7 +30,7 @@ class HaramFoodContaint extends StatelessWidget {
         Text(
           containt,
           textAlign: TextAlign.justify,
-          style: robotoMedium.copyWith(
+          style: elmessiriMedium.copyWith(
             color: Theme.of(context).textTheme.bodyMedium!.color,
           ),
         ),

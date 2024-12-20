@@ -36,7 +36,7 @@ class _NotificationSoundSelectorState extends State<NotificationSoundSelector> {
                   horizontal: Dimensions.FONT_SIZE_DEFAULT),
               child: Text(
                 "choose_sound_for_notification".tr,
-                style: robotoMedium.copyWith(
+                style: elmessiriMedium.copyWith(
                   fontSize: Dimensions.FONT_SIZE_LARGE,
                 ),
               ),
@@ -59,7 +59,7 @@ class _NotificationSoundSelectorState extends State<NotificationSoundSelector> {
                     child: RadioListTile(
                       title: Text(
                         notiController.sounds[index]['name']!,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_LARGE,
                         ),
                       ),

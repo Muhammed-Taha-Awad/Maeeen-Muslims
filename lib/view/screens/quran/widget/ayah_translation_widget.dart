@@ -127,7 +127,7 @@ class AyanTranslationWidget extends StatelessWidget {
                                                   .pageVerses![i].translatedName
                                                   .toString(),
                                               textAlign: TextAlign.justify,
-                                              style: robotoMedium.copyWith(
+                                              style: elmessiriMedium.copyWith(
                                                 fontSize: Get.find<
                                                         QuranSettingsController>()
                                                     .translateFontSize
@@ -158,7 +158,7 @@ class AyanTranslationWidget extends StatelessWidget {
                                                   apiData.pageVerses![i]
                                                       .versesNumber
                                                       .toString(),
-                                                  style: robotoMedium.copyWith(
+                                                  style: elmessiriMedium.copyWith(
                                                     fontSize: Dimensions
                                                         .FONT_SIZE_SMALL,
                                                     color: Theme.of(context)
@@ -313,7 +313,7 @@ class AyanTranslationWidget extends StatelessWidget {
                               child: Text(
                                 apiData.pageNumber.toString(),
                                 textAlign: TextAlign.justify,
-                                style: robotoMedium.copyWith(
+                                style: elmessiriMedium.copyWith(
                                   fontSize: Dimensions.FONT_SIZE_LARGE,
                                   color: Theme.of(context)
                                       .textTheme

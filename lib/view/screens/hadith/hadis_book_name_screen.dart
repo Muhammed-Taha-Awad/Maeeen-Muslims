@@ -71,7 +71,7 @@ class HadisBookNameScreen extends StatelessWidget {
                                 title: Text(
                                   hadithController
                                       .hadisBookModel!.books![index].bookName!,
-                                  style: robotoMedium.copyWith(
+                                  style: elmessiriMedium.copyWith(
                                       fontSize: Dimensions.FONT_SIZE_LARGE),
                                 ),
                                 subtitle: Column(
@@ -82,14 +82,14 @@ class HadisBookNameScreen extends StatelessWidget {
                                       hadithController.hadisBookModel!
                                           .books![index].writerName!,
                                       textAlign: TextAlign.left,
-                                      style: robotoMedium.copyWith(
+                                      style: elmessiriMedium.copyWith(
                                           fontSize:
                                               Dimensions.FONT_SIZE_DEFAULT),
                                     ),
                                     const SizedBox(height: 5),
                                     Text(
                                       "${"hadiths".tr}: ${hadithController.hadisBookModel!.books![index].hadithsCount!}",
-                                      style: robotoMedium.copyWith(
+                                      style: elmessiriMedium.copyWith(
                                           fontSize: Dimensions.FONT_SIZE_SMALL),
                                     ),
                                   ],

@@ -89,7 +89,7 @@ class _HadithChaptersScreenState extends State<HadithChaptersScreen> {
                                   hadithController.hadithChapterModel!
                                       .chapters![index].chapterNumber
                                       .toString(),
-                                  style: robotoMedium.copyWith(
+                                  style: elmessiriMedium.copyWith(
                                     fontSize: Dimensions.FONT_SIZE_DEFAULT,
                                     color: Theme.of(context)
                                         .textTheme
@@ -120,7 +120,7 @@ class _HadithChaptersScreenState extends State<HadithChaptersScreen> {
                               hadithController.hadithChapterModel!
                                   .chapters![index].chapterEnglish
                                   .toString(),
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                 fontSize: Dimensions.FONT_SIZE_DEFAULT,
                               ),
                             ),

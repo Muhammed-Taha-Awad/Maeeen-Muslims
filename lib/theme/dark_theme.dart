@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 ThemeData dark = ThemeData(
   useMaterial3: false,
-  fontFamily: 'Roboto',
+  fontFamily: 'ElMessiri',
   primaryColor: const Color(0xFFAF8209),
   scaffoldBackgroundColor: const Color(0xFF1f1f1f),
   disabledColor: const Color(0xFF6f7275),

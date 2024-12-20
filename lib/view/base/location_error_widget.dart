@@ -33,7 +33,7 @@ class LocationErrorWidget extends StatelessWidget {
             child: Text(
               error!,
               textAlign: TextAlign.center,
-              style: robotoMedium.copyWith(
+              style: elmessiriMedium.copyWith(
                   color: Theme.of(context).colorScheme.error,
                   fontWeight: FontWeight.bold),
             ),

@@ -79,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 mosqueSettingsController
                                     .mosqueSettingsApiData!.data!.mosqueName
                                     .toString(),
-                                style: robotoRegular.copyWith(
+                                style: elmessiriRegular.copyWith(
                                   fontSize: Dimensions.FONT_SIZE_OVER_LARGE + 2,
                                   color: Get.isDarkMode
                                       ? null
@@ -114,7 +114,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                               .data!
                                               .mosqueAddress
                                               .toString(),
-                                      style: robotoRegular.copyWith(
+                                      style: elmessiriRegular.copyWith(
                                         fontSize: Dimensions.FONT_SIZE_DEFAULT,
                                         color: Theme.of(context).hintColor,
                                       ),
@@ -226,7 +226,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                 ? "${"todays_Prayer_Time_in".tr} ${packagePrayerTimeController.currentAddress}"
                                                 : "todays_Prayer_Time".tr,
                                             textAlign: TextAlign.left,
-                                            style: robotoRegular.copyWith(
+                                            style: elmessiriRegular.copyWith(
                                               fontSize:
                                                   Dimensions.FONT_SIZE_LARGE,
                                               fontWeight: FontWeight.bold,

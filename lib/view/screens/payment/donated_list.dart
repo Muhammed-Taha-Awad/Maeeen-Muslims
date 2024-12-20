@@ -93,7 +93,7 @@ class UserDonateScreen extends StatelessWidget {
                                 child: TextFormField(
                                   controller:
                                       donationController.emailController,
-                                  style: robotoMedium.copyWith(
+                                  style: elmessiriMedium.copyWith(
                                       fontSize: Dimensions.FONT_SIZE_LARGE),
                                   validator: (value) {
                                     if (!GetUtils.isEmail(value!)) {
@@ -145,7 +145,7 @@ class UserDonateScreen extends StatelessWidget {
                               ? Center(
                                   child: Text(
                                     "no_data_found".tr,
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                         fontSize: Dimensions.FONT_SIZE_LARGE),
                                   ),
                                 )
@@ -195,7 +195,7 @@ class UserDonateScreen extends StatelessWidget {
                                         ),
                                         title: Text(
                                           '${apiData.category}',
-                                          style: robotoMedium.copyWith(
+                                          style: elmessiriMedium.copyWith(
                                             fontSize: Get.find<
                                                     QuranSettingsController>()
                                                 .translateFontSize
@@ -204,7 +204,7 @@ class UserDonateScreen extends StatelessWidget {
                                         ),
                                         subtitle: Text(
                                           '${apiData.date}',
-                                          style: robotoMedium.copyWith(
+                                          style: elmessiriMedium.copyWith(
                                             fontSize: Get.find<
                                                     QuranSettingsController>()
                                                 .translateFontSize
@@ -213,7 +213,7 @@ class UserDonateScreen extends StatelessWidget {
                                         ),
                                         trailing: Text(
                                           "${Get.find<QuranSettingsController>().mosqueSettingsApiData?.data?.currencySymbol}${apiData.amount} ",
-                                          style: robotoMedium.copyWith(
+                                          style: elmessiriMedium.copyWith(
                                             fontSize: Get.find<
                                                     QuranSettingsController>()
                                                 .translateFontSize

@@ -53,7 +53,7 @@ class GridViewItemWidget extends StatelessWidget {
               itemName,
               textAlign: TextAlign.center,
               style:
-                  robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_LARGE),
+                  elmessiriMedium.copyWith(fontSize: Dimensions.FONT_SIZE_LARGE),
             ),
           ],
         ),

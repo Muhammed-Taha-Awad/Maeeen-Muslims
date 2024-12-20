@@ -87,7 +87,7 @@ class DuasViewScreen extends StatelessWidget {
                               Text(
                                 "${duaDetailsController.duaDetailApiData!.data!.enFullName}",
                                 textAlign: TextAlign.justify,
-                                style: robotoMedium.copyWith(
+                                style: elmessiriMedium.copyWith(
                                   fontSize: Dimensions.FONT_SIZE_DEFAULT,
                                   color: Theme.of(context)
                                       .textTheme

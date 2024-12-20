@@ -48,7 +48,7 @@ class FeatureItemWidget extends StatelessWidget {
               child: Text(
                 itemName,
                 textAlign: TextAlign.center,
-                style: robotoRegular.copyWith(
+                style: elmessiriRegular.copyWith(
                   fontSize: Dimensions.FONT_SIZE_SMALL,
                   color: Get.isDarkMode
                       ? Theme.of(context).hintColor

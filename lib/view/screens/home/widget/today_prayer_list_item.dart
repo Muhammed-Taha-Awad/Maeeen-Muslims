@@ -60,7 +60,7 @@ class TodaysprayerWidget extends StatelessWidget {
                 Text(
                   prayerName,
                   textAlign: TextAlign.center,
-                  style: robotoRegular.copyWith(
+                  style: elmessiriRegular.copyWith(
                     color: Theme.of(context).primaryColor,
                     fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                     fontWeight: FontWeight.bold,
@@ -77,12 +77,12 @@ class TodaysprayerWidget extends StatelessWidget {
                       children: [
                         Text(
                           "start".tr,
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                               color: Theme.of(context).hintColor),
                         ),
                         Text(
                           isSunrise == true ? sunriseStart! : "",
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                               color: Theme.of(context).hintColor),
                         )
                       ],
@@ -94,31 +94,31 @@ class TodaysprayerWidget extends StatelessWidget {
                           children: [
                             Text(
                               isPrayerpackage == true ? "start".tr : "adhan".tr,
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                   color: Theme.of(context).hintColor),
                             ),
                             Text(
                               adhan,
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                   color: Theme.of(context).hintColor),
                             )
                           ],
                         ),
                         Text(
                           "|",
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                               color: Theme.of(context).hintColor),
                         ),
                         Column(
                           children: [
                             Text(
                               isPrayerpackage == true ? "end".tr : "jamaat".tr,
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                   color: Theme.of(context).hintColor),
                             ),
                             Text(
                               jamah,
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                   color: Theme.of(context).hintColor),
                             )
                           ],

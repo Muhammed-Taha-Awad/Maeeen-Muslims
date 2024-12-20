@@ -51,7 +51,7 @@ class LanguageDWWidget extends StatelessWidget {
                       ),
                       Text(
                         "language_settings".tr,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_LARGE,
                         ),
                       ),

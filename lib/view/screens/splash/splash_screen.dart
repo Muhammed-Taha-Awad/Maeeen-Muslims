@@ -29,7 +29,7 @@ class SplashScreen extends StatelessWidget {
             // app name
             Text(
               AppConstants.APP_NAME,
-              style: robotoMedium.copyWith(
+              style: elmessiriMedium.copyWith(
                 fontSize: Dimensions.FONT_SIZE_OVER_LARGE,
                 color: Theme.of(context).primaryColor,
               ),

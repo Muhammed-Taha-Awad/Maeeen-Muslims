@@ -38,7 +38,7 @@ class PaymentTypeScreen extends StatelessWidget {
                   ? Center(
                       child: Text(
                         "no_data_found".tr,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                             fontSize: Dimensions.FONT_SIZE_LARGE),
                       ),
                     )
@@ -120,7 +120,7 @@ class PaymentTypeScreen extends StatelessWidget {
                               ),
                               title: Text(
                                 '${apiData.name}',
-                                style: robotoMedium.copyWith(
+                                style: elmessiriMedium.copyWith(
                                   fontSize: Get.find<QuranSettingsController>()
                                       .translateFontSize
                                       .value,

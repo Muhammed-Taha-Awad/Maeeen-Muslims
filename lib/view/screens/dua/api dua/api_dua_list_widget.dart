@@ -25,7 +25,7 @@ class ApiDuaListWidgets extends StatelessWidget {
                 ? Center(
                     child: Text(
                       "no_data_found".tr,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_LARGE),
                     ),
                   )
@@ -60,7 +60,7 @@ class ApiDuaListWidgets extends StatelessWidget {
                                           Dimensions.PADDING_SIZE_DEFAULT),
                               title: Text(
                                 apiData.enShortName.toString(),
-                                style: robotoMedium.copyWith(
+                                style: elmessiriMedium.copyWith(
                                     fontSize: Dimensions.FONT_SIZE_LARGE),
                               ),
                               subtitle: Text(

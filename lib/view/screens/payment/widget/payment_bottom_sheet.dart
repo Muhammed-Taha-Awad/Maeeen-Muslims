@@ -73,7 +73,7 @@ class _PaymentBottomSheetScreenState extends State<PaymentBottomSheetScreen> {
                       Text(
                         widget.name.tr,
                         textAlign: TextAlign.center,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                         ),
                       ),
@@ -83,7 +83,7 @@ class _PaymentBottomSheetScreenState extends State<PaymentBottomSheetScreen> {
                         },
                         child: Text(
                           "close".tr,
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                               color: Theme.of(context).colorScheme.error),
                         ),
                       ),
@@ -99,7 +99,7 @@ class _PaymentBottomSheetScreenState extends State<PaymentBottomSheetScreen> {
                           RegExp(r'^\d+\.?\d{0,2}')),
                     ],
                     controller: amountController,
-                    style: robotoMedium.copyWith(
+                    style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE),
                     decoration: getTextInputDecoration(context).copyWith(
                       filled: true,
@@ -117,7 +117,7 @@ class _PaymentBottomSheetScreenState extends State<PaymentBottomSheetScreen> {
                   const SizedBox(height: 20),
                   TextFormField(
                     controller: emailController,
-                    style: robotoMedium.copyWith(
+                    style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE),
                     decoration: getTextInputDecoration(context).copyWith(
                       filled: true,

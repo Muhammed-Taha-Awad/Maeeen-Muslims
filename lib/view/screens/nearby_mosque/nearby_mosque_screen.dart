@@ -55,7 +55,7 @@ class NearbyMosque extends StatelessWidget {
                           "if_you_cant_find_the_mosque_according_to_the_predefined_area_then_search_for_the_mosque_by_selecting_area_by_kilometers_from_below"
                               .tr,
                           textAlign: TextAlign.justify,
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                             fontSize: Dimensions.FONT_SIZE_DEFAULT,
                             color: Theme.of(context).primaryColor,
                           ),
@@ -144,12 +144,12 @@ class NearbyMosque extends StatelessWidget {
                                               Dimensions.PADDING_SIZE_DEFAULT),
                                   title: Text(
                                     place['name'] ?? "--",
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                         fontSize: Dimensions.FONT_SIZE_LARGE),
                                   ),
                                   subtitle: Text(
                                     place['vicinity'] ?? "--",
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                       fontSize: Dimensions.FONT_SIZE_SMALL,
                                     ),
                                   ),

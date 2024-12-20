@@ -32,7 +32,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           ? Text(
               title!.tr,
               textAlign: TextAlign.center,
-              style: robotoRegular.copyWith(
+              style: elmessiriRegular.copyWith(
                 fontSize: Dimensions.FONT_SIZE_LARGE,
                 color: Get.isDarkMode
                     ? Theme.of(context).textTheme.bodyMedium!.color

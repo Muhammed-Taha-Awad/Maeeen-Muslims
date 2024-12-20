@@ -35,7 +35,7 @@ class ZakatDetaile extends StatelessWidget {
                     .zakatDescription
                     .toString(),
                 textAlign: TextAlign.justify,
-                style: robotoMedium.copyWith(),
+                style: elmessiriMedium.copyWith(),
               ),
             ],
           ),

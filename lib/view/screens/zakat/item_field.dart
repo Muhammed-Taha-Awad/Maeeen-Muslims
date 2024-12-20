@@ -21,7 +21,7 @@ class ItemField extends StatelessWidget {
           child: Text(
             fieldName,
             style:
-                robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                elmessiriMedium.copyWith(fontSize: Dimensions.FONT_SIZE_DEFAULT),
           ),
         ),
         Expanded(

@@ -159,14 +159,14 @@ class QiblahCompassWidget extends StatelessWidget {
                   children: <Widget>[
                     Text(
                       "${((qiblahDirection.direction - 285) % 360).toInt()}°", // 标准化方向
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
                     const SizedBox(height: 2.0),
                     Text('device_angle_to_qibla'.tr,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT,
                         )),
                   ],

@@ -24,7 +24,7 @@ class ApiDikirWidget extends StatelessWidget {
                 ? Center(
                     child: Text(
                       "no_data_found".tr,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_LARGE),
                     ),
                   )
@@ -67,7 +67,7 @@ class ApiDikirWidget extends StatelessWidget {
                                   // Dhikr Title English---->
                                   title: Text(
                                     apiData.enShortName.toString(),
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                         fontSize: Dimensions.FONT_SIZE_LARGE),
                                   ),
                                   trailing: Text(

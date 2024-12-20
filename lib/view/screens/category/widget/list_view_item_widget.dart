@@ -35,7 +35,7 @@ class ListViewItemWidget extends StatelessWidget {
           // Dhikr Title English---->
           title: Text(
             itemName,
-            style: robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_LARGE),
+            style: elmessiriMedium.copyWith(fontSize: Dimensions.FONT_SIZE_LARGE),
           ),
           leading: SvgPicture.asset(
             itemImage,

@@ -33,7 +33,7 @@ class BookmarkTab extends StatelessWidget {
                       child: Text(
                         "no_bookmarks_have_been_added_here".tr,
                         textAlign: TextAlign.center,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_LARGE,
                           color: Theme.of(context).primaryColor,
                         ),
@@ -115,7 +115,7 @@ class BookmarkTab extends StatelessWidget {
                                       child: Text(
                                         bookMark.translatedName,
                                         textAlign: TextAlign.left,
-                                        style: robotoMedium.copyWith(
+                                        style: elmessiriMedium.copyWith(
                                           fontSize: Get.find<
                                                   QuranSettingsController>()
                                               .translateFontSize
@@ -146,7 +146,7 @@ class BookmarkTab extends StatelessWidget {
                                           RichText(
                                             text: TextSpan(
                                               text: "${"sura_name".tr}: ",
-                                              style: robotoMedium.copyWith(
+                                              style: elmessiriMedium.copyWith(
                                                 fontSize: Get.find<
                                                             QuranSettingsController>()
                                                         .translateFontSize
@@ -160,7 +160,7 @@ class BookmarkTab extends StatelessWidget {
                                               children: [
                                                 TextSpan(
                                                   text: bookMark.suraName,
-                                                  style: robotoMedium.copyWith(
+                                                  style: elmessiriMedium.copyWith(
                                                     fontSize: Get.find<
                                                                 QuranSettingsController>()
                                                             .translateFontSize
@@ -179,7 +179,7 @@ class BookmarkTab extends StatelessWidget {
                                           Text(
                                             "${"sura_number".tr}: ${bookMark.serialNumber}"
                                                 .tr,
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                               fontSize: Get.find<
                                                       QuranSettingsController>()
                                                   .translateFontSize
@@ -193,7 +193,7 @@ class BookmarkTab extends StatelessWidget {
                                           const SizedBox(height: 2),
                                           Text(
                                             "${"ayah_no".tr}: ${bookMark.versesNumber}",
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                               fontSize: Get.find<
                                                       QuranSettingsController>()
                                                   .translateFontSize
@@ -207,7 +207,7 @@ class BookmarkTab extends StatelessWidget {
                                           const SizedBox(height: 2),
                                           Text(
                                             "${"page_no".tr}: ${bookMark.pageNumber}",
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                               fontSize: Get.find<
                                                       QuranSettingsController>()
                                                   .translateFontSize
@@ -238,7 +238,7 @@ class BookmarkTab extends StatelessWidget {
                                                           true
                                                       ? Text(
                                                           'deleting_data'.tr,
-                                                          style: robotoMedium
+                                                          style: elmessiriMedium
                                                               .copyWith(
                                                             color: Theme.of(
                                                                     context)
@@ -249,7 +249,7 @@ class BookmarkTab extends StatelessWidget {
                                                         )
                                                       : Text(
                                                           'are_you_sure'.tr,
-                                                          style: robotoMedium
+                                                          style: elmessiriMedium
                                                               .copyWith(
                                                             color: Theme.of(
                                                                     context)
@@ -272,7 +272,7 @@ class BookmarkTab extends StatelessWidget {
                                                       : Text(
                                                           "do_you_want_to_delete_this_bookmark"
                                                               .tr,
-                                                          style: robotoMedium,
+                                                          style: elmessiriMedium,
                                                         ),
                                                   actions: [
                                                     bookMarkController.isLoading
@@ -305,7 +305,7 @@ class BookmarkTab extends StatelessWidget {
                                                             },
                                                             child: Text(
                                                                 'yes'.tr,
-                                                                style: robotoMedium.copyWith(
+                                                                style: elmessiriMedium.copyWith(
                                                                     color: Theme.of(
                                                                             context)
                                                                         .colorScheme
@@ -322,7 +322,7 @@ class BookmarkTab extends StatelessWidget {
                                                             child: Text(
                                                               'cancel'.tr,
                                                               style:
-                                                                  robotoMedium
+                                                                  elmessiriMedium
                                                                       .copyWith(
                                                                 color: Theme.of(
                                                                         context)

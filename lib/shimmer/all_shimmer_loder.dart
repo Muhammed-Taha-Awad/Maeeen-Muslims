@@ -1080,7 +1080,7 @@ class DonationTypeShimmer extends StatelessWidget {
                       ),
                       Text(
                         "$index",
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_SMALL,
                           color: Colors.white,
                         ),
@@ -1092,7 +1092,7 @@ class DonationTypeShimmer extends StatelessWidget {
                 trailing: const Text("         "),
                 // title:  Text(
                 //   "Donation Type",
-                //   style: robotoMedium.copyWith(
+                //   style: elmessiriMedium.copyWith(
                 //     fontSize: Dimensions.FONT_SIZE_SMALL,
                 //     color: Colors.white,
                 //   ),
@@ -1197,7 +1197,7 @@ class QuranListShimmer extends StatelessWidget {
                       ),
                       Text(
                         "$index",
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_SMALL,
                           color: Colors.white,
                         ),
@@ -1296,7 +1296,7 @@ class AyahTranslationShimmer extends StatelessWidget {
                             ),
                             Text(
                               "$index",
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                 fontSize: Dimensions.FONT_SIZE_SMALL,
                                 color: Colors.white,
                               ),
@@ -1438,7 +1438,7 @@ class ArabicTranslationShimmer extends StatelessWidget {
                               "$index",
                               // textDirection: TextDirection.rtl,
                               textAlign: TextAlign.center,
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                 color: Get.isDarkMode
                                     ? Colors.white
                                     : Colors.black,
@@ -1542,7 +1542,7 @@ class DhikirCountShimmer extends StatelessWidget {
                       Text(
                         "arabic".tr,
                         textAlign: TextAlign.start,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                           color: Colors.white,
                         ),
@@ -1555,7 +1555,7 @@ class DhikirCountShimmer extends StatelessWidget {
                       Text(
                         "english".tr,
                         textAlign: TextAlign.justify,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                           color: Colors.white,
                         ),
@@ -1578,7 +1578,7 @@ class DhikirCountShimmer extends StatelessWidget {
               children: [
                 Text(
                   "count".tr,
-                  style: robotoMedium.copyWith(
+                  style: elmessiriMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                     color: Colors.white,
                   ),
@@ -1586,7 +1586,7 @@ class DhikirCountShimmer extends StatelessWidget {
                 const SizedBox(height: 5),
                 Text(
                   translateText('0'),
-                  style: robotoMedium.copyWith(
+                  style: elmessiriMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE + 30,
                     color: Colors.white,
                   ),
@@ -1852,7 +1852,7 @@ class HadisChapterShimmer extends StatelessWidget {
                         ),
                         Text(
                           "$index",
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                             fontSize: Dimensions.FONT_SIZE_SMALL,
                             color: Colors.white,
                           ),
@@ -1922,7 +1922,7 @@ class AllahNameShimmer extends StatelessWidget {
                         ),
                         Text(
                           "$index",
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                             fontSize: Dimensions.FONT_SIZE_SMALL,
                             color: Colors.white,
                           ),
@@ -2015,7 +2015,7 @@ class AllahNameDetailsShimmer extends StatelessWidget {
                 Text(
                   "meaning".tr,
                   textAlign: TextAlign.start,
-                  style: robotoMedium.copyWith(
+                  style: elmessiriMedium.copyWith(
                       fontSize: Dimensions.FONT_SIZE_OVER_LARGE),
                 ),
                 const SizedBox(height: 10),
@@ -2037,7 +2037,7 @@ class AllahNameDetailsShimmer extends StatelessWidget {
                 Text(
                   "benefits".tr,
                   textAlign: TextAlign.start,
-                  style: robotoMedium.copyWith(
+                  style: elmessiriMedium.copyWith(
                       fontSize: Dimensions.FONT_SIZE_OVER_LARGE),
                 ),
                 const SizedBox(height: 10),
@@ -2101,7 +2101,7 @@ class HaramCodeShimmer extends StatelessWidget {
                           color: Colors.white,
                           child: Text(
                             "E10gttgg",
-                            style: robotoMedium.copyWith(
+                            style: elmessiriMedium.copyWith(
                               fontSize: Dimensions.FONT_SIZE_DEFAULT,
                             ),
                           ),
@@ -2113,7 +2113,7 @@ class HaramCodeShimmer extends StatelessWidget {
                             color: Colors.white,
                             child: Text(
                               "E10gttggffffg1",
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                 fontSize: Dimensions.FONT_SIZE_DEFAULT,
                               ),
                             ),
@@ -2125,7 +2125,7 @@ class HaramCodeShimmer extends StatelessWidget {
                           color: Colors.white,
                           child: Text(
                             "E10gttggff",
-                            style: robotoMedium.copyWith(
+                            style: elmessiriMedium.copyWith(
                               fontSize: Dimensions.FONT_SIZE_DEFAULT,
                             ),
                           ),

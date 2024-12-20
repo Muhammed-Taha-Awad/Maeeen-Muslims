@@ -67,7 +67,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Center(
                       child: Text(
                         "what_i_own".tr,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_LARGE,
                           color: Theme.of(context).primaryColor,
                         ),
@@ -76,7 +76,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     const Divider(),
                     Text(
                       "my_cash".tr,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE,
                         color: Theme.of(context).primaryColor,
                       ),
@@ -84,7 +84,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Text(
                       "enter_the_amount_of_cash_you_have".tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT),
                     ),
                     const SizedBox(height: 10),
@@ -100,7 +100,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     const SizedBox(height: 10),
                     Text(
                       "money_owed_to_me".tr,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE,
                         color: Theme.of(context).primaryColor,
                       ),
@@ -109,7 +109,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                       "if_you_have_lent_money_to_someone_and_are_confident_it_will_be_repaid"
                           .tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT),
                     ),
                     const SizedBox(height: 10),
@@ -126,7 +126,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     const SizedBox(height: 10),
                     Text(
                       "my_gold_and_silver".tr,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE,
                         color: Theme.of(context).primaryColor,
                       ),
@@ -134,7 +134,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Text(
                       "if_you_are_not_sure_how_much_your_gold_and_silver".tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT),
                     ),
                     const SizedBox(height: 10),
@@ -150,7 +150,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     const SizedBox(height: 10),
                     Text(
                       "my_shares".tr,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE,
                         color: Theme.of(context).primaryColor,
                       ),
@@ -158,7 +158,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Text(
                       "if_you_own_stocks_and_shares_zakat_is_due_on_them".tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT),
                     ),
                     const SizedBox(height: 10),
@@ -178,7 +178,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     const SizedBox(height: 10),
                     Text(
                       "my_pensions".tr,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE,
                         color: Theme.of(context).primaryColor,
                       ),
@@ -186,7 +186,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Text(
                       "if_you_have_a_defined_contribution_pension_scheme".tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT),
                     ),
                     const SizedBox(height: 10),
@@ -198,7 +198,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Text(
                       "my_ISAs_junior_ISAs_and_child_trust_funds".tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE,
                         color: Theme.of(context).primaryColor,
                       ),
@@ -206,7 +206,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Text(
                       "zakat_is_payable_on_ISAs_and_Child_Trust_Funds".tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT),
                     ),
                     const SizedBox(height: 10),
@@ -223,7 +223,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Text(
                       "my_crypto".tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE,
                         color: Theme.of(context).primaryColor,
                       ),
@@ -232,7 +232,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                       "enter_the_value_of_any_cryptocurrencies_you_own_in_pounds"
                           .tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT),
                     ),
                     const SizedBox(height: 10),
@@ -245,7 +245,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Text(
                       "my_business_assets".tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE,
                         color: Theme.of(context).primaryColor,
                       ),
@@ -253,7 +253,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Text(
                       "business_assets_include_cash".tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT),
                     ),
                     const SizedBox(height: 10),
@@ -281,7 +281,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Center(
                       child: Text(
                         "money_i_owe".tr,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_LARGE,
                           color: Theme.of(context).primaryColor,
                         ),
@@ -291,7 +291,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Text(
                       "for_long_term_debts".tr,
                       textAlign: TextAlign.justify,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT),
                     ),
                     const SizedBox(height: 10),
@@ -335,7 +335,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     Center(
                       child: Text(
                         "all_done".tr,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_LARGE,
                           color: Theme.of(context).primaryColor,
                         ),

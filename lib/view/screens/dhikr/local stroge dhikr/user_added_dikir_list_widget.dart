@@ -25,7 +25,7 @@ class UserAddedDikirWidget extends StatelessWidget {
               ? Center(
                   child: Text(
                     "no_dhikr_added_here".tr,
-                    style: robotoMedium.copyWith(
+                    style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE),
                   ),
                 )
@@ -49,7 +49,7 @@ class UserAddedDikirWidget extends StatelessWidget {
                                   isDeleting.value == true
                                       ? "deleting_data".tr
                                       : "are_you_sure".tr,
-                                  style: robotoMedium.copyWith(
+                                  style: elmessiriMedium.copyWith(
                                       fontSize:
                                           Dimensions.FONT_SIZE_OVER_LARGE),
                                 ),
@@ -62,7 +62,7 @@ class UserAddedDikirWidget extends StatelessWidget {
                                       )
                                     : Text(
                                         "do_you_want_to_delete_this_dhikr".tr,
-                                        style: robotoMedium.copyWith(),
+                                        style: elmessiriMedium.copyWith(),
                                       ),
                                 actions: isDeleting.value == true
                                     ? null
@@ -85,7 +85,7 @@ class UserAddedDikirWidget extends StatelessWidget {
                                           },
                                           child: Text(
                                             "yes".tr,
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                                 color: Theme.of(context)
                                                     .colorScheme.error),
                                           ),
@@ -96,7 +96,7 @@ class UserAddedDikirWidget extends StatelessWidget {
                                           },
                                           child: Text(
                                             "cancel".tr,
-                                            style: robotoMedium.copyWith(),
+                                            style: elmessiriMedium.copyWith(),
                                           ),
                                         ),
                                       ],
@@ -138,7 +138,7 @@ class UserAddedDikirWidget extends StatelessWidget {
                             // Dhikr Title English---->
                             title: Text(
                               dhikr.englishName,
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                   fontSize: Dimensions.FONT_SIZE_LARGE),
                             ),
                             trailing: Text(

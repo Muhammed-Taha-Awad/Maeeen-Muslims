@@ -17,7 +17,7 @@ Widget tabBarButton(String label, BuildContext context) {
     child: Text(
       label.tr,
       textAlign: TextAlign.center,
-      style: robotoMedium.copyWith(
+      style: elmessiriMedium.copyWith(
         color: Get.isDarkMode
             ? Theme.of(context).textTheme.bodyMedium!.color
             : Theme.of(context).hintColor,

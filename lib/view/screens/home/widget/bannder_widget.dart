@@ -62,7 +62,7 @@ class BannerWidget extends StatelessWidget {
                                   isAutometicPrayerTimeOn
                                       ? "next_prayer".tr
                                       : "next_jamaat".tr,
-                                  style: robotoRegular.copyWith(
+                                  style: elmessiriRegular.copyWith(
                                     fontSize: Dimensions.FONT_SIZE_DEFAULT,
                                     color: Theme.of(context).hintColor,
                                   ),
@@ -78,7 +78,7 @@ class BannerWidget extends StatelessWidget {
                                       isAutometicPrayerTimeOn
                                           ? "${packagePrayerTimeController.waqtName.value} "
                                           : "${prayerTimeController.currentWaqtName} ",
-                                      style: robotoRegular.copyWith(
+                                      style: elmessiriRegular.copyWith(
                                         fontSize:
                                             Dimensions.FONT_SIZE_OVER_LARGE + 2,
                                         fontWeight: FontWeight.bold,
@@ -97,7 +97,7 @@ class BannerWidget extends StatelessWidget {
                                               " ${packagePrayerTimeController.waqtTime.value}")
                                           : translateText(
                                               " ${prayerTimeController.currentJamahTime}"),
-                                      style: robotoRegular.copyWith(
+                                      style: elmessiriRegular.copyWith(
                                         fontSize:
                                             Dimensions.FONT_SIZE_OVER_LARGE + 2,
                                         fontWeight: FontWeight.bold,
@@ -150,7 +150,7 @@ class BannerWidget extends StatelessWidget {
                                             child: Text(
                                               translateText(DateFormat.yMMMEd()
                                                   .format(DateTime.now())),
-                                              style: robotoRegular.copyWith(
+                                              style: elmessiriRegular.copyWith(
                                                 fontSize: Dimensions
                                                     .FONT_SIZE_DEFAULT,
                                                 color:
@@ -162,7 +162,7 @@ class BannerWidget extends StatelessWidget {
                                           Text(
                                             translateText(
                                                 "${HijriCalendar.fromDate(DateTime.now()).toFormat('dd MMMM yyyy')} "),
-                                            style: robotoRegular.copyWith(
+                                            style: elmessiriRegular.copyWith(
                                               fontSize:
                                                   Dimensions.FONT_SIZE_DEFAULT -
                                                       1,

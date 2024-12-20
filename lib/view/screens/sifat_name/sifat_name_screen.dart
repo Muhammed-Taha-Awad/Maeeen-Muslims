@@ -41,7 +41,7 @@ class SifatNameScreen extends StatelessWidget {
                   ? Center(
                       child: Text(
                         "no_data_found".tr,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                             fontSize: Dimensions.FONT_SIZE_LARGE),
                       ),
                     )
@@ -90,7 +90,7 @@ class SifatNameScreen extends StatelessWidget {
                                     ),
                                     Text(
                                       translateText(apiData.id.toString()),
-                                      style: robotoMedium.copyWith(
+                                      style: elmessiriMedium.copyWith(
                                         fontSize: Dimensions.FONT_SIZE_DEFAULT,
                                         color: Theme.of(context)
                                             .textTheme
@@ -102,7 +102,7 @@ class SifatNameScreen extends StatelessWidget {
                                 ),
                                 title: Text(
                                   apiData.enName.toString(),
-                                  style: robotoMedium.copyWith(
+                                  style: elmessiriMedium.copyWith(
                                     fontSize: Dimensions.FONT_SIZE_DEFAULT,
                                   ),
                                 ),

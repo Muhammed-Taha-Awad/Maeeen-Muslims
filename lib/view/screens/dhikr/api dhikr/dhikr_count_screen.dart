@@ -112,7 +112,7 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                   Text(
                                     "arabic".tr,
                                     textAlign: TextAlign.start,
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                       fontSize:
                                           Dimensions.FONT_SIZE_EXTRA_LARGE,
                                       color: Theme.of(context).primaryColor,
@@ -140,7 +140,7 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                   Text(
                                     "english".tr,
                                     textAlign: TextAlign.justify,
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                       fontSize:
                                           Dimensions.FONT_SIZE_EXTRA_LARGE,
                                       color: Theme.of(context).primaryColor,
@@ -150,7 +150,7 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                   Text(
                                     apiData.data!.enFullName.toString(),
                                     textAlign: TextAlign.justify,
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                       fontSize:
                                           Dimensions.FONT_SIZE_EXTRA_LARGE,
                                       color: Theme.of(context)
@@ -173,7 +173,7 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                           children: [
                             Text(
                               "count".tr,
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                 fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                                 color: Theme.of(context).primaryColor,
                               ),
@@ -186,7 +186,7 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                   translateText(dikirDetailsController
                                       .count.value
                                       .toString()),
-                                  style: robotoMedium.copyWith(
+                                  style: elmessiriMedium.copyWith(
                                     fontSize:
                                         Dimensions.FONT_SIZE_EXTRA_LARGE + 30,
                                     color: Theme.of(context)
@@ -247,7 +247,7 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                     return AlertDialog(
                                       title: Text(
                                         'are_you_sure_to_reset'.tr,
-                                        style: robotoMedium.copyWith(),
+                                        style: elmessiriMedium.copyWith(),
                                       ),
                                       actions: [
                                         TextButton(
@@ -261,7 +261,7 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                           },
                                           child: Text(
                                             'yes'.tr,
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                                 color: Theme.of(context)
                                                     .colorScheme.error),
                                           ),
@@ -273,7 +273,7 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                           },
                                           child: Text(
                                             'no'.tr,
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                                 color: Theme.of(context)
                                                     .primaryColor),
                                           ),

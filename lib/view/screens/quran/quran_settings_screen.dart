@@ -41,14 +41,14 @@ void openBottomSheet(BuildContext context) {
                         onPressed: null,
                         child: Text(
                           "",
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                               color: Theme.of(context).colorScheme.error),
                         ),
                       ),
                       Text(
                         'quran_settings'.tr,
                         textAlign: TextAlign.center,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                         ),
                       ),
@@ -58,7 +58,7 @@ void openBottomSheet(BuildContext context) {
                         },
                         child: Text(
                           "close".tr,
-                          style: robotoMedium.copyWith(
+                          style: elmessiriMedium.copyWith(
                               color: Theme.of(context).colorScheme.error),
                         ),
                       ),
@@ -72,7 +72,7 @@ void openBottomSheet(BuildContext context) {
                       contentPadding: const EdgeInsets.all(0),
                       title: Text(
                         'arabic_font_size'.tr,
-                        style: robotoMedium.copyWith(),
+                        style: elmessiriMedium.copyWith(),
                       ),
                       subtitle: Row(
                         children: [
@@ -104,7 +104,7 @@ void openBottomSheet(BuildContext context) {
                       contentPadding: const EdgeInsets.all(0),
                       title: Text(
                         'translate_font_size'.tr,
-                        style: robotoMedium.copyWith(),
+                        style: elmessiriMedium.copyWith(),
                       ),
                       subtitle: Row(
                         children: [
@@ -136,7 +136,7 @@ void openBottomSheet(BuildContext context) {
                       contentPadding: const EdgeInsets.all(0),
                       title: Text(
                         'arabic_font_style'.tr,
-                        style: robotoMedium.copyWith(),
+                        style: elmessiriMedium.copyWith(),
                       ),
                       subtitle: Padding(
                         padding: const EdgeInsets.only(
@@ -184,7 +184,7 @@ void openBottomSheet(BuildContext context) {
                                       value: value,
                                       child: Text(
                                         value,
-                                        style: robotoMedium.copyWith(
+                                        style: elmessiriMedium.copyWith(
                                           fontSize:
                                               Dimensions.FONT_SIZE_DEFAULT,
                                           fontWeight: FontWeight.bold,
@@ -210,7 +210,7 @@ void openBottomSheet(BuildContext context) {
                     contentPadding: const EdgeInsets.all(0),
                     title: Text(
                       'translator_name'.tr,
-                      style: robotoMedium.copyWith(),
+                      style: elmessiriMedium.copyWith(),
                     ),
                     subtitle: Padding(
                       padding: const EdgeInsets.only(
@@ -235,7 +235,7 @@ void openBottomSheet(BuildContext context) {
                                       Dimensions.PADDING_SIZE_DEFAULT),
                                   child: Text(
                                     "--",
-                                    style: robotoMedium,
+                                    style: elmessiriMedium,
                                     textAlign: TextAlign.center,
                                   ),
                                 ),
@@ -267,7 +267,7 @@ void openBottomSheet(BuildContext context) {
                                                 "${translation["id"]}. ${translation["full_name"]}",
                                             child: Text(
                                               "${translation['language']}:  ${translation['full_name']}",
-                                              style: robotoMedium.copyWith(
+                                              style: elmessiriMedium.copyWith(
                                                 fontSize: Dimensions
                                                     .FONT_SIZE_DEFAULT,
                                                 fontWeight: FontWeight.bold,
@@ -277,7 +277,7 @@ void openBottomSheet(BuildContext context) {
                                         }).toList(),
                                         hint: Text(
                                           'select_a_translator'.tr,
-                                          style: robotoMedium,
+                                          style: elmessiriMedium,
                                         ),
                                         onChanged: (value) {
                                           for (var i = 0;

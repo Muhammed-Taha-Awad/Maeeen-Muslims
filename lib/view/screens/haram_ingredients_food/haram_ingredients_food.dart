@@ -50,7 +50,7 @@ class HaramIngredientsFood extends StatelessWidget {
                   ? Center(
                       child: Text(
                         "no_data_found".tr,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                             fontSize: Dimensions.FONT_SIZE_LARGE),
                       ),
                     )
@@ -98,7 +98,7 @@ class HaramIngredientsFood extends StatelessWidget {
                                       const SizedBox(height: 5),
                                       Text(
                                         apiData![index].code.toString(),
-                                        style: robotoMedium.copyWith(
+                                        style: elmessiriMedium.copyWith(
                                           fontSize:
                                               Dimensions.FONT_SIZE_DEFAULT,
                                         ),
@@ -108,7 +108,7 @@ class HaramIngredientsFood extends StatelessWidget {
                                           child: Text(
                                             apiData[index].name.toString(),
                                             textAlign: TextAlign.center,
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                               fontSize:
                                                   Dimensions.FONT_SIZE_SMALL,
                                             ),
@@ -139,7 +139,7 @@ class HaramIngredientsFood extends StatelessWidget {
           scrollable: true,
           title: Text(
             codeInfo.name.toString(),
-            style: robotoMedium.copyWith(
+            style: elmessiriMedium.copyWith(
               fontSize: Dimensions.FONT_SIZE_LARGE,
               color: Theme.of(context).primaryColor,
             ),
@@ -154,14 +154,14 @@ class HaramIngredientsFood extends StatelessWidget {
                   children: [
                     TextSpan(
                       text: "${'code'.tr}: ",
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE,
                         color: Theme.of(context).colorScheme.error,
                       ),
                     ),
                     TextSpan(
                       text: '${codeInfo.code}',
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_LARGE,
                         color: Theme.of(context).colorScheme.error,
                       ),
@@ -179,14 +179,14 @@ class HaramIngredientsFood extends StatelessWidget {
                   children: [
                     TextSpan(
                       text: "${'information'.tr}: ".tr,
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_DEFAULT,
                         color: Theme.of(context).primaryColor,
                       ),
                     ),
                     TextSpan(
                       text: '${codeInfo.description}',
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_DEFAULT,
                       ),
                     ),
@@ -203,7 +203,7 @@ class HaramIngredientsFood extends StatelessWidget {
                   children: [
                     TextSpan(
                       text: "${'status'.tr}: ",
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_DEFAULT,
                         color: Theme.of(context).primaryColor,
                       ),
@@ -211,7 +211,7 @@ class HaramIngredientsFood extends StatelessWidget {
                     // status text ==>
                     TextSpan(
                       text: '${codeInfo.statusInfo}',
-                      style: robotoMedium.copyWith(
+                      style: elmessiriMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_DEFAULT,
                       ),
                     ),
@@ -228,7 +228,7 @@ class HaramIngredientsFood extends StatelessWidget {
               },
               child: Text(
                 'close'.tr,
-                style: robotoMedium,
+                style: elmessiriMedium,
               ),
             ),
           ],

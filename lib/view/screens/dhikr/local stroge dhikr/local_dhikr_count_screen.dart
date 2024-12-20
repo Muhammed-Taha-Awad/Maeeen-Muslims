@@ -74,7 +74,7 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
         body: Center(
           child: Text(
             'dhikr_not_found_with_iD: $dhikrId'.tr,
-            style: robotoMedium,
+            style: elmessiriMedium,
           ),
         ),
       );
@@ -128,7 +128,7 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                   Text(
                                     "arabic".tr,
                                     textAlign: TextAlign.start,
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                       fontSize:
                                           Dimensions.FONT_SIZE_EXTRA_LARGE,
                                       color: Theme.of(context).primaryColor,
@@ -158,7 +158,7 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                   Text(
                                     "english".tr,
                                     textAlign: TextAlign.justify,
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                       fontSize:
                                           Dimensions.FONT_SIZE_EXTRA_LARGE,
                                       color: Theme.of(context).primaryColor,
@@ -170,7 +170,7 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                         ? "--"
                                         : dhikr.englishDescription,
                                     textAlign: TextAlign.justify,
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                       fontSize:
                                           Dimensions.FONT_SIZE_EXTRA_LARGE,
                                       color: Theme.of(context)
@@ -193,7 +193,7 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                           children: [
                             Text(
                               "count".tr,
-                              style: robotoMedium.copyWith(
+                              style: elmessiriMedium.copyWith(
                                 fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                                 color: Theme.of(context).primaryColor,
                               ),
@@ -204,7 +204,7 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                               child: Obx(
                                 () => Text(
                                   translateText( localDhikrController.count.value.toString()),
-                                  style: robotoMedium.copyWith(
+                                  style: elmessiriMedium.copyWith(
                                     fontSize:
                                         Dimensions.FONT_SIZE_EXTRA_LARGE + 30,
                                     color: Theme.of(context)
@@ -265,7 +265,7 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                     return AlertDialog(
                                       title: Text(
                                         'are_you_sure_to_reset'.tr,
-                                        style: robotoMedium.copyWith(),
+                                        style: elmessiriMedium.copyWith(),
                                       ),
                                       actions: [
                                         TextButton(
@@ -278,7 +278,7 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                           },
                                           child: Text(
                                             'yes'.tr,
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                                 color: Theme.of(context)
                                                     .colorScheme.error),
                                           ),
@@ -290,7 +290,7 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                           },
                                           child: Text(
                                             'no'.tr,
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                                 color: Theme.of(context)
                                                     .primaryColor),
                                           ),

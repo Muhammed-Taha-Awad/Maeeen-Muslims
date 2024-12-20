@@ -47,7 +47,7 @@ class LanguageWidget extends StatelessWidget {
             width: 25,
             height: 25,
           ),
-          title: Text(languageModel.languageName!, style: robotoMedium),
+          title: Text(languageModel.languageName!, style: elmessiriMedium),
           trailing: localizationController.selectedIndex == index
               ? Image.asset(
                   Get.isDarkMode

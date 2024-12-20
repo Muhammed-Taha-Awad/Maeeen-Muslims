@@ -44,7 +44,7 @@ class LocalDhikrAddScreen extends StatelessWidget {
             TextFormField(
               controller: englishNameController,
               style:
-                  robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_LARGE),
+                  elmessiriMedium.copyWith(fontSize: Dimensions.FONT_SIZE_LARGE),
               decoration: getTextInputDecoration(context).copyWith(
                 filled: true,
                 focusColor: Colors.white,
@@ -64,7 +64,7 @@ class LocalDhikrAddScreen extends StatelessWidget {
             TextFormField(
               controller: arabicNameController,
               style:
-                  robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  elmessiriMedium.copyWith(fontSize: Dimensions.FONT_SIZE_DEFAULT),
               decoration: getTextInputDecoration(context).copyWith(
                 filled: true,
                 focusColor: Colors.white,
@@ -83,7 +83,7 @@ class LocalDhikrAddScreen extends StatelessWidget {
               maxLines: 3,
               controller: englishDescriptionController,
               style:
-                  robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  elmessiriMedium.copyWith(fontSize: Dimensions.FONT_SIZE_DEFAULT),
               decoration: getTextInputDecoration(context).copyWith(
                 filled: true,
                 focusColor: Colors.white,
@@ -103,7 +103,7 @@ class LocalDhikrAddScreen extends StatelessWidget {
               maxLines: 3,
               controller: arabicDescriptionController,
               style:
-                  robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  elmessiriMedium.copyWith(fontSize: Dimensions.FONT_SIZE_DEFAULT),
               decoration: getTextInputDecoration(context).copyWith(
                 filled: true,
                 focusColor: Colors.white,

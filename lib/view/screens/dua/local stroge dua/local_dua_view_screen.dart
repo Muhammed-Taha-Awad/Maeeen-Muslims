@@ -80,7 +80,7 @@ class LocalDuasViewScreen extends StatelessWidget {
                       child: Text(
                         dua.englishDescription,
                         textAlign: TextAlign.justify,
-                        style: robotoMedium.copyWith(
+                        style: elmessiriMedium.copyWith(
                           fontSize: Dimensions.FONT_SIZE_DEFAULT,
                           color: Theme.of(context).textTheme.bodyLarge!.color,
                         ),

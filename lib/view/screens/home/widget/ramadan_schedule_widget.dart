@@ -70,7 +70,7 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
                             Text(
                               "ramadan_schedule".tr,
                               textAlign: TextAlign.center,
-                              style: robotoRegular.copyWith(
+                              style: elmessiriRegular.copyWith(
                                 color: Theme.of(context).primaryColor,
                                 fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                                 fontWeight: FontWeight.bold,
@@ -92,7 +92,7 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
                                 children: [
                                   Text(
                                     "sehri_end".tr,
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                         color: Theme.of(context).hintColor),
                                   ),
                                   Text(
@@ -106,14 +106,14 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
                                                 .data!
                                                 .sehriEnd
                                                 .toString()),
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                         color: Theme.of(context).hintColor),
                                   ),
                                 ],
                               ),
                               Text(
                                 "|",
-                                style: robotoMedium.copyWith(
+                                style: elmessiriMedium.copyWith(
                                     color: Theme.of(context).hintColor),
                               ),
                               Column(
@@ -125,7 +125,7 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
                                                     .isFajrTime.value
                                                 ? "remaining_for_sehri".tr
                                                 : "remaining_to_iftar".tr,
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                                 color: Theme.of(context)
                                                     .hintColor),
                                           )
@@ -134,7 +134,7 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
                                                     .isFajrTime.value
                                                 ? "remaining_for_sehri".tr
                                                 : "remaining_to_iftar".tr,
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                                 color: Theme.of(context)
                                                     .hintColor),
                                           ),
@@ -148,7 +148,7 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
                                                     "${packagePrayerTimeController.packageTimeRemaining}")
                                                 : translateText(
                                                     "${packagePrayerTimeController.packageTimeRemaining}"),
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                                 fontSize: Dimensions
                                                     .FONT_SIZE_OVER_LARGE,
                                                 color: Theme.of(context)
@@ -161,7 +161,7 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
                                                     "${todaysPrayerTimeController.timeRemaining}")
                                                 : translateText(
                                                     "${todaysPrayerTimeController.timeRemaining}"),
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                                 fontSize: Dimensions
                                                     .FONT_SIZE_OVER_LARGE,
                                                 color: Theme.of(context)
@@ -172,14 +172,14 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
                               ),
                               Text(
                                 "|",
-                                style: robotoMedium.copyWith(
+                                style: elmessiriMedium.copyWith(
                                     color: Theme.of(context).hintColor),
                               ),
                               Column(
                                 children: [
                                   Text(
                                     "iftar_start".tr,
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                         color: Theme.of(context).hintColor),
                                   ),
                                   Text(
@@ -193,7 +193,7 @@ class _RamadanScheduleWidgetState extends State<RamadanScheduleWidget> {
                                                 .data!
                                                 .iftarStart
                                                 .toString()),
-                                    style: robotoMedium.copyWith(
+                                    style: elmessiriMedium.copyWith(
                                         color: Theme.of(context).hintColor),
                                   ),
                                 ],

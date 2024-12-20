@@ -118,7 +118,7 @@ class ArabicQuranWidget extends StatelessWidget {
                                             apiData.pageNumber.toString(),
                                             textDirection: TextDirection.rtl,
                                             textAlign: TextAlign.center,
-                                            style: robotoMedium.copyWith(
+                                            style: elmessiriMedium.copyWith(
                                               color: Get.isDarkMode
                                                   ? Colors.white
                                                   : Colors.black,

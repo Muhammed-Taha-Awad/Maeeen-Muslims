@@ -54,7 +54,7 @@ class HadithDetailsScreen extends StatelessWidget {
               Center(
                 child: Text(
                   "hadith_arabic".tr,
-                  style: robotoMedium.copyWith(
+                  style: elmessiriMedium.copyWith(
                       fontSize: Dimensions.FONT_SIZE_DEFAULT),
                 ),
               ),
@@ -78,7 +78,7 @@ class HadithDetailsScreen extends StatelessWidget {
               Center(
                 child: Text(
                   "hadith_english".tr,
-                  style: robotoMedium.copyWith(
+                  style: elmessiriMedium.copyWith(
                       fontSize: Dimensions.FONT_SIZE_DEFAULT),
                 ),
               ),
@@ -89,7 +89,7 @@ class HadithDetailsScreen extends StatelessWidget {
               Text(
                 data.hadithEnglish.toString(),
                 textAlign: TextAlign.justify,
-                style: robotoMedium.copyWith(
+                style: elmessiriMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_DEFAULT),
               ),
               const SizedBox(
@@ -102,49 +102,49 @@ class HadithDetailsScreen extends StatelessWidget {
               Text(
                 "${"hadith_number".tr}: ${data.hadithNumber}",
                 textAlign: TextAlign.left,
-                style: robotoMedium.copyWith(
+                style: elmessiriMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_DEFAULT),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"book_name".tr}: ${data.book!.bookName!}".tr,
                 textAlign: TextAlign.left,
-                style: robotoMedium.copyWith(
+                style: elmessiriMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_DEFAULT),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"writer_name".tr}: ${data.book!.writerName}",
                 textAlign: TextAlign.left,
-                style: robotoMedium.copyWith(
+                style: elmessiriMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_DEFAULT),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"writer_death".tr}: ${data.book!.writerDeath!}",
                 textAlign: TextAlign.left,
-                style: robotoMedium.copyWith(
+                style: elmessiriMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_DEFAULT),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"chapter_number".tr}: ${data.chapter!.chapterNumber!}",
                 textAlign: TextAlign.left,
-                style: robotoMedium.copyWith(
+                style: elmessiriMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_DEFAULT),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"chapter_name".tr}: ${data.chapter!.chapterEnglish!}",
                 textAlign: TextAlign.left,
-                style: robotoMedium.copyWith(
+                style: elmessiriMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_DEFAULT),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"english_narrator".tr}: ${data.englishNarrator}",
                 textAlign: TextAlign.left,
-                style: robotoMedium.copyWith(
+                style: elmessiriMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_DEFAULT),
               ),
               const SizedBox(height: 10),

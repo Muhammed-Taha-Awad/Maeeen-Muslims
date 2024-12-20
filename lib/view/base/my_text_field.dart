@@ -5,7 +5,7 @@ import '../../util/dimensions.dart';
 import '../../util/styles.dart';
 InputDecoration getTextInputDecoration(BuildContext context) {
   return InputDecoration(
-    labelStyle: robotoMedium.copyWith(
+    labelStyle: elmessiriMedium.copyWith(
       color: Theme.of(context).primaryColor,
       fontSize: Dimensions.FONT_SIZE_DEFAULT,
     ),
@@ -53,7 +53,7 @@ disabledBorder: OutlineInputBorder(
 }
 //  InputDecoration getTextInputDecoration(BuildContext context) {
 //   return InputDecoration(
-//     labelStyle: robotoMedium.copyWith(
+//     labelStyle: elmessiriMedium.copyWith(
 //       color: Theme.of(context).primaryColor,
 //       fontSize: Dimensions.FONT_SIZE_DEFAULT,
 //     ),
