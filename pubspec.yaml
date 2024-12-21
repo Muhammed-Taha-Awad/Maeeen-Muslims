@@ -72,11 +72,11 @@ flutter:
   fonts:
     - family: ElMessiri
       fonts:
-        - asset: assets/fonts/ElMessiri-Regular.ttf
+        - asset: assets/font/ElMessiri-Regular.ttf
           weight: 400
-        - asset: assets/fonts/ElMessiri-Light.ttf
+        - asset: assets/font/ElMessiri-Light.ttf
           weight: 300
-        - asset: assets/fonts/ElMessiri-SemiBold.ttf
+        - asset: assets/font/ElMessiri-SemiBold.ttf
           weight: 600
-        - asset: assets/fonts/ElMessiri-Bold.ttf
+        - asset: assets/font/ElMessiri-Bold.ttf
           weight: 700
