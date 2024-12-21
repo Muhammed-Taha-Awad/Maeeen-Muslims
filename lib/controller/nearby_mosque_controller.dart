@@ -70,8 +70,10 @@ class NearbyMosqueController extends GetxController {
 
         await prefs.setBool("isLocationDenied", true);
         bool? storedFontSize = prefs.getBool("isLocationDenied");
-        isLocationDenied.value = storedFontSize;
-      
+        if (storedFontSize != null) {
+          isLocationDenied.value = storedFontSize;
+        }
+
         return;
       }
     } else if (permission == LocationPermission.deniedForever) {
@@ -98,7 +100,9 @@ class NearbyMosqueController extends GetxController {
       );
       await prefs.setBool("isLocationDenied", true);
       bool? storedFontSize = prefs.getBool("isLocationDenied");
-      isLocationDenied.value = storedFontSize;
+      if (storedFontSize != null) {
+        isLocationDenied.value = storedFontSize;
+      }
           return;
     }
 
@@ -114,7 +118,9 @@ class NearbyMosqueController extends GetxController {
       } catch (e) {
         await prefs.setBool("isLocationDenied", true);
         bool? storedFontSize = prefs.getBool("isLocationDenied");
-        isLocationDenied.value = storedFontSize;
+        if (storedFontSize != null) {
+          isLocationDenied.value = storedFontSize;
+        }
       
         Get.snackbar(
           'location_Permission_Denied_Forever'.tr,
@@ -146,7 +152,9 @@ class NearbyMosqueController extends GetxController {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.setBool("isLocationDenied", false);
     bool? storedFontSize = prefs.getBool("isLocationDenied");
-    isLocationDenied.value = storedFontSize;
+    if (storedFontSize != null) {
+      isLocationDenied.value = storedFontSize;
+    }
       try {
       isLoading(true);
       var url =

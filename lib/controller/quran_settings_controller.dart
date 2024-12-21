@@ -39,8 +39,10 @@ class QuranSettingsController extends GetxController implements GetxService {
   void getArabicFontSizeFromLocalStorage() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     double? storedFontSize = prefs.getDouble(arabicFontSizeKey);
-    arabicFontSize.value = storedFontSize;
+    if (storedFontSize != null) {
+      arabicFontSize.value = storedFontSize;
     }
+  }
 
 //==============================//
 //   Translate Font size part   //
@@ -62,8 +64,10 @@ class QuranSettingsController extends GetxController implements GetxService {
   void getTranslateFontSizeFromLocalStorage() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     double? storedFontSize = prefs.getDouble(translateFontSizeKey);
-    translateFontSize.value = storedFontSize;
+    if (storedFontSize != null) {
+      translateFontSize.value = storedFontSize;
     }
+  }
 
 //=================================//
 //    Change Arabic font part     //
@@ -93,7 +97,9 @@ class QuranSettingsController extends GetxController implements GetxService {
   Future<void> loadArabicFontPreference() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String? font = prefs.getString(selectedFontKey);
-    selectedFont.value = font;
+    if (font != null) {
+      selectedFont.value = font;
+    }
       update();
   }
 

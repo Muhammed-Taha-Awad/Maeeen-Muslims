@@ -83,7 +83,9 @@ class PackagePrayerTimeController extends GetxController {
 
         await prefs.setBool("isLocationDenied", true);
         bool? storedFontSize = prefs.getBool("isLocationDenied");
-        isLocationDenied.value = storedFontSize;
+        if (storedFontSize != null) {
+          isLocationDenied.value = storedFontSize;
+        }
       
         return;
       }
@@ -113,7 +115,9 @@ class PackagePrayerTimeController extends GetxController {
 
       await prefs.setBool("isLocationDenied", true);
       bool? storedFontSize = prefs.getBool("isLocationDenied");
-      isLocationDenied.value = storedFontSize;
+      if (storedFontSize != null) {
+        isLocationDenied.value = storedFontSize;
+      }
           return;
     }
 
@@ -130,7 +134,9 @@ class PackagePrayerTimeController extends GetxController {
       } catch (e) {
         await prefs.setBool("isLocationDenied", true);
         bool? storedFontSize = prefs.getBool("isLocationDenied");
-        isLocationDenied.value = storedFontSize;
+        if (storedFontSize != null) {
+          isLocationDenied.value = storedFontSize;
+        }
       
         Get.snackbar(
           'location_Permission_Denied_Forever'.tr,
@@ -160,8 +166,10 @@ class PackagePrayerTimeController extends GetxController {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.setBool("isLocationDenied", false);
     bool? storedFontSize = prefs.getBool("isLocationDenied");
-    isLocationDenied.value = storedFontSize;
-      pt.Coordinates coordinates = pt.Coordinates(lat, long);
+    if (storedFontSize != null) {
+      isLocationDenied.value = storedFontSize;
+    }
+    pt.Coordinates coordinates = pt.Coordinates(lat, long);
 
     // Specify the calculation parameters for prayer times
     pt.PrayerCalculationParameters params =

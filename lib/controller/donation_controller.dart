@@ -66,9 +66,10 @@ class DonationController extends GetxController implements GetxService {
   void _loadEmail() async {
     final prefs = await SharedPreferences.getInstance();
     String? savedEmail = prefs.getString('selectedEmail');
-    if (savedEmail.isNotEmpty) {
-      emailController.text = savedEmail;
+    if (savedEmail?.isNotEmpty ?? false) {
+      emailController.text = savedEmail ?? '';
     }
+
   }
 
 // get donation donation form here
