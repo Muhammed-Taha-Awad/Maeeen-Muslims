@@ -5,14 +5,14 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:zabi/controller/localization_controller.dart';
-import 'package:zabi/helper/notification_service_helper.dart';
-import 'package:zabi/view/screens/notification/widgets/audio_select_widget.dart';
-import 'package:zabi/view/screens/notification/widgets/salat_waqt.dart';
-import 'package:zabi/view/screens/notification/widgets/salat_waqt_repository.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/images.dart';
-import 'package:zabi/util/styles.dart';
+import 'package:maeeen/controller/localization_controller.dart';
+import 'package:maeeen/helper/notification_service_helper.dart';
+import 'package:maeeen/view/screens/notification/widgets/audio_select_widget.dart';
+import 'package:maeeen/view/screens/notification/widgets/salat_waqt.dart';
+import 'package:maeeen/view/screens/notification/widgets/salat_waqt_repository.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/images.dart';
+import 'package:maeeen/util/styles.dart';
 
 class NofificationDWWidget extends StatefulWidget {
   const NofificationDWWidget({super.key});

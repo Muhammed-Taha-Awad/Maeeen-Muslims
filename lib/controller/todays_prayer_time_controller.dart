@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'package:intl/intl.dart';
-import 'package:zabi/data/api/api_client.dart';
+import 'package:maeeen/data/api/api_client.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
-import 'package:zabi/data/model/response/todays_prayer_time_model.dart';
-import 'package:zabi/util/app_constants.dart';
+import 'package:maeeen/data/model/response/todays_prayer_time_model.dart';
+import 'package:maeeen/util/app_constants.dart';
 
 class TodaysPrayerTimeController extends GetxController implements GetxService {
   final ApiClient apiClient;

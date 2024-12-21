@@ -1,11 +1,11 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:zabi/controller/quran_settings_controller.dart';
+import 'package:maeeen/controller/quran_settings_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:zabi/data/model/response/hadith_model.dart';
-import 'package:zabi/view/base/custom_app_bar.dart';
+import 'package:maeeen/data/model/response/hadith_model.dart';
+import 'package:maeeen/view/base/custom_app_bar.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../../util/dimensions.dart';
 import '../../../util/images.dart';

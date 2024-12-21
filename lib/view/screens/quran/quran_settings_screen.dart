@@ -1,12 +1,12 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:zabi/controller/quran_settings_controller.dart';
-import 'package:zabi/controller/quran_controller.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/styles.dart';
+import 'package:maeeen/controller/quran_settings_controller.dart';
+import 'package:maeeen/controller/quran_controller.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:zabi/view/base/loading_indicator.dart';
+import 'package:maeeen/view/base/loading_indicator.dart';
 
 void openBottomSheet(BuildContext context) {
   showModalBottomSheet(

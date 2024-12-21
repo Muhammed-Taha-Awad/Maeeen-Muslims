@@ -1,4 +1,4 @@
-import 'package:zabi/data/model/response/bookmark_model.dart';
+import 'package:maeeen/data/model/response/bookmark_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

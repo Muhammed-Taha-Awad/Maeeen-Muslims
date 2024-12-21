@@ -7,13 +7,13 @@ import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 import 'package:prayers_times/prayers_times.dart' as pt;
-import 'package:zabi/data/api/api_client.dart';
-import 'package:zabi/data/model/response/mosque_settings_model.dart';
-import 'package:zabi/data/model/response/todays_prayer_time_model.dart';
-import 'package:zabi/helper/notification_service_helper.dart';
-import 'package:zabi/view/screens/notification/widgets/salat_waqt.dart';
-import 'package:zabi/view/screens/notification/widgets/salat_waqt_repository.dart';
-import 'package:zabi/util/app_constants.dart';
+import 'package:maeeen/data/api/api_client.dart';
+import 'package:maeeen/data/model/response/mosque_settings_model.dart';
+import 'package:maeeen/data/model/response/todays_prayer_time_model.dart';
+import 'package:maeeen/helper/notification_service_helper.dart';
+import 'package:maeeen/view/screens/notification/widgets/salat_waqt.dart';
+import 'package:maeeen/view/screens/notification/widgets/salat_waqt_repository.dart';
+import 'package:maeeen/util/app_constants.dart';
 
 class SalatWaqtService {
   final SalatWaqtRepository _salatWaqtRepository;

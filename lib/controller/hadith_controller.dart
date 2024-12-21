@@ -3,10 +3,10 @@ import 'dart:convert';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:zabi/data/model/response/hadis_book_model.dart';
-import 'package:zabi/data/model/response/hadith_chapter_model.dart';
-import 'package:zabi/data/model/response/hadith_model.dart';
-import 'package:zabi/util/app_constants.dart';
+import 'package:maeeen/data/model/response/hadis_book_model.dart';
+import 'package:maeeen/data/model/response/hadith_chapter_model.dart';
+import 'package:maeeen/data/model/response/hadith_model.dart';
+import 'package:maeeen/util/app_constants.dart';
 
 
 class HadithController extends GetxController {

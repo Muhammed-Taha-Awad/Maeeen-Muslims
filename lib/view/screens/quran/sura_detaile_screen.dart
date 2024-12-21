@@ -1,16 +1,16 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:zabi/controller/quran_controller.dart';
-import 'package:zabi/util/images.dart';
-import 'package:zabi/view/screens/quran/quran_settings_screen.dart';
+import 'package:maeeen/controller/quran_controller.dart';
+import 'package:maeeen/util/images.dart';
+import 'package:maeeen/view/screens/quran/quran_settings_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/view/base/custom_app_bar.dart';
-import 'package:zabi/view/base/tabbar_button.dart';
-import 'package:zabi/view/screens/quran/widget/arabic_quran_widget.dart';
-import 'package:zabi/view/screens/quran/widget/ayah_translation_widget.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/view/base/custom_app_bar.dart';
+import 'package:maeeen/view/base/tabbar_button.dart';
+import 'package:maeeen/view/screens/quran/widget/arabic_quran_widget.dart';
+import 'package:maeeen/view/screens/quran/widget/ayah_translation_widget.dart';
 
 class SuraDetaileScreen extends StatelessWidget {
   final bool appBackButton;

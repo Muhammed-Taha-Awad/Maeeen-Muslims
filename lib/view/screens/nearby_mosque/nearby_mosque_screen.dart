@@ -3,12 +3,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:zabi/controller/nearby_mosque_controller.dart';
-import 'package:zabi/helper/translator_helper.dart';
-import 'package:zabi/shimmer/all_shimmer_loder.dart';
-import 'package:zabi/view/base/custom_app_bar.dart';
+import 'package:maeeen/controller/nearby_mosque_controller.dart';
+import 'package:maeeen/helper/translator_helper.dart';
+import 'package:maeeen/shimmer/all_shimmer_loder.dart';
+import 'package:maeeen/view/base/custom_app_bar.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:zabi/view/base/location_error_widget.dart';
+import 'package:maeeen/view/base/location_error_widget.dart';
 import '../../../util/dimensions.dart';
 import '../../../util/images.dart';
 import '../../../util/styles.dart';

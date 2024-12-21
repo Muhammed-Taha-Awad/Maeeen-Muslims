@@ -1,5 +1,5 @@
-import 'package:zabi/data/api/api_client.dart';
-import 'package:zabi/util/app_constants.dart';
+import 'package:maeeen/data/api/api_client.dart';
+import 'package:maeeen/util/app_constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashRepo {

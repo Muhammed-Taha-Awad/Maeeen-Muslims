@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:zabi/util/app_constants.dart';
+import 'package:maeeen/util/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:geolocator/geolocator.dart';
@@ -70,10 +70,8 @@ class NearbyMosqueController extends GetxController {
 
         await prefs.setBool("isLocationDenied", true);
         bool? storedFontSize = prefs.getBool("isLocationDenied");
-        if (storedFontSize != null) {
-          isLocationDenied.value = storedFontSize;
-        }
-
+        isLocationDenied.value = storedFontSize;
+      
         return;
       }
     } else if (permission == LocationPermission.deniedForever) {
@@ -100,10 +98,8 @@ class NearbyMosqueController extends GetxController {
       );
       await prefs.setBool("isLocationDenied", true);
       bool? storedFontSize = prefs.getBool("isLocationDenied");
-      if (storedFontSize != null) {
-        isLocationDenied.value = storedFontSize;
-      }
-      return;
+      isLocationDenied.value = storedFontSize;
+          return;
     }
 
     // If permission is granted, retrieve the current position
@@ -118,10 +114,8 @@ class NearbyMosqueController extends GetxController {
       } catch (e) {
         await prefs.setBool("isLocationDenied", true);
         bool? storedFontSize = prefs.getBool("isLocationDenied");
-        if (storedFontSize != null) {
-          isLocationDenied.value = storedFontSize;
-        }
-
+        isLocationDenied.value = storedFontSize;
+      
         Get.snackbar(
           'location_Permission_Denied_Forever'.tr,
           "for_getting_Automatic_Prayer_Time_Nearby_Mosque_Qibla_Compass_need_to_enable_location_permission"
@@ -152,10 +146,8 @@ class NearbyMosqueController extends GetxController {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.setBool("isLocationDenied", false);
     bool? storedFontSize = prefs.getBool("isLocationDenied");
-    if (storedFontSize != null) {
-      isLocationDenied.value = storedFontSize;
-    }
-    try {
+    isLocationDenied.value = storedFontSize;
+      try {
       isLoading(true);
       var url =
           '${AppConstants.NEARBY_MOSQUE_URL}/json?location=${userLocation.value}&radius=${1000 * kmToRadious}&type=mosque&key=${AppConstants.MAPS_API_KEY}';

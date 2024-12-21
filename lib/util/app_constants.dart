@@ -1,6 +1,6 @@
 // ignore_for_file: constant_identifier_name, constant_identifier_names
-import 'package:zabi/data/model/response/language_model.dart';
-import 'package:zabi/util/images.dart';
+import 'package:maeeen/data/model/response/language_model.dart';
+import 'package:maeeen/util/images.dart';
 
 class AppConstants {
   // Flutter SDK Version 3.22.0

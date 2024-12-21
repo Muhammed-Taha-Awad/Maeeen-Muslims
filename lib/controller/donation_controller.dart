@@ -10,7 +10,7 @@ import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:get/get.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:zabi/data/repository/donation_repo.dart';
+import 'package:maeeen/data/repository/donation_repo.dart';
 import '../data/model/response/donation_category_model.dart';
 import '../data/model/response/donation_list_model.dart';
 import '../data/model/response/payment_method_model.dart';
@@ -66,7 +66,7 @@ class DonationController extends GetxController implements GetxService {
   void _loadEmail() async {
     final prefs = await SharedPreferences.getInstance();
     String? savedEmail = prefs.getString('selectedEmail');
-    if (savedEmail != null && savedEmail.isNotEmpty) {
+    if (savedEmail.isNotEmpty) {
       emailController.text = savedEmail;
     }
   }

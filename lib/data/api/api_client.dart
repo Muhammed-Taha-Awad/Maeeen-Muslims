@@ -1,7 +1,7 @@
 // ignore_for_file: library_prefixes, empty_catches
 
 import 'dart:convert';
-import 'package:zabi/data/model/response/error_response_model.dart';
+import 'package:maeeen/data/model/response/error_response_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as Http;

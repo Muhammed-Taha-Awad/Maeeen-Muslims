@@ -3,12 +3,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:zabi/controller/quran_settings_controller.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/styles.dart';
-import 'package:zabi/controller/dhikr_controller.dart';
-import 'package:zabi/view/base/loading_indicator.dart';
-import 'package:zabi/view/screens/dhikr/local%20stroge%20dhikr/local_dhikr_count_screen.dart';
+import 'package:maeeen/controller/quran_settings_controller.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/styles.dart';
+import 'package:maeeen/controller/dhikr_controller.dart';
+import 'package:maeeen/view/base/loading_indicator.dart';
+import 'package:maeeen/view/screens/dhikr/local%20stroge%20dhikr/local_dhikr_count_screen.dart';
 
 class UserAddedDikirWidget extends StatelessWidget {
   UserAddedDikirWidget({super.key});

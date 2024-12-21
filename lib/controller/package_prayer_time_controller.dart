@@ -83,10 +83,8 @@ class PackagePrayerTimeController extends GetxController {
 
         await prefs.setBool("isLocationDenied", true);
         bool? storedFontSize = prefs.getBool("isLocationDenied");
-        if (storedFontSize != null) {
-          isLocationDenied.value = storedFontSize;
-        }
-
+        isLocationDenied.value = storedFontSize;
+      
         return;
       }
     } else if (permission == LocationPermission.deniedForever) {
@@ -115,10 +113,8 @@ class PackagePrayerTimeController extends GetxController {
 
       await prefs.setBool("isLocationDenied", true);
       bool? storedFontSize = prefs.getBool("isLocationDenied");
-      if (storedFontSize != null) {
-        isLocationDenied.value = storedFontSize;
-      }
-      return;
+      isLocationDenied.value = storedFontSize;
+          return;
     }
 
     // If permission is granted, retrieve the current position
@@ -134,10 +130,8 @@ class PackagePrayerTimeController extends GetxController {
       } catch (e) {
         await prefs.setBool("isLocationDenied", true);
         bool? storedFontSize = prefs.getBool("isLocationDenied");
-        if (storedFontSize != null) {
-          isLocationDenied.value = storedFontSize;
-        }
-
+        isLocationDenied.value = storedFontSize;
+      
         Get.snackbar(
           'location_Permission_Denied_Forever'.tr,
           "for_getting_Automatic_Prayer_Time_Nearby_Mosque_Qibla_Compass_need_to_enable_location_permission"
@@ -166,10 +160,8 @@ class PackagePrayerTimeController extends GetxController {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.setBool("isLocationDenied", false);
     bool? storedFontSize = prefs.getBool("isLocationDenied");
-    if (storedFontSize != null) {
-      isLocationDenied.value = storedFontSize;
-    }
-    pt.Coordinates coordinates = pt.Coordinates(lat, long);
+    isLocationDenied.value = storedFontSize;
+      pt.Coordinates coordinates = pt.Coordinates(lat, long);
 
     // Specify the calculation parameters for prayer times
     pt.PrayerCalculationParameters params =

@@ -6,11 +6,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_qiblah/flutter_qiblah.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
-import 'package:zabi/shimmer/all_shimmer_loder.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/images.dart';
-import 'package:zabi/util/styles.dart';
-import 'package:zabi/view/base/location_error_widget.dart';
+import 'package:maeeen/shimmer/all_shimmer_loder.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/images.dart';
+import 'package:maeeen/util/styles.dart';
+import 'package:maeeen/view/base/location_error_widget.dart';
 
 class QiblahCompass extends StatefulWidget {
   const QiblahCompass({super.key});

@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:zabi/data/repository/splash_repo.dart';
-import 'package:zabi/helper/route_helper.dart';
+import 'package:maeeen/data/repository/splash_repo.dart';
+import 'package:maeeen/helper/route_helper.dart';
 
 class SplashController extends GetxController implements GetxService {
   final SplashRepo splashRepo;

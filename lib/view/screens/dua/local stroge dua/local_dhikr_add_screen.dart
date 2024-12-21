@@ -2,9 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:zabi/controller/dua_controller.dart';
-import 'package:zabi/view/base/custom_app_bar.dart';
-import 'package:zabi/view/base/my_text_field.dart';
+import 'package:maeeen/controller/dua_controller.dart';
+import 'package:maeeen/view/base/custom_app_bar.dart';
+import 'package:maeeen/view/base/my_text_field.dart';
 import '../../../../util/dimensions.dart';
 import '../../../../util/styles.dart';
 import '../../../base/custom_button.dart';

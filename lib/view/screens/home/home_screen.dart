@@ -1,22 +1,22 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter_svg/svg.dart';
-import 'package:zabi/controller/package_prayer_time_controller.dart';
-import 'package:zabi/controller/todays_prayer_time_controller.dart';
-import 'package:zabi/controller/quran_settings_controller.dart';
+import 'package:maeeen/controller/package_prayer_time_controller.dart';
+import 'package:maeeen/controller/todays_prayer_time_controller.dart';
+import 'package:maeeen/controller/quran_settings_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:zabi/helper/route_helper.dart';
-import 'package:zabi/helper/salat_waqt_service.dart';
-import 'package:zabi/helper/translator_helper.dart';
-import 'package:zabi/shimmer/all_shimmer_loder.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/images.dart';
-import 'package:zabi/util/styles.dart';
- import 'package:zabi/view/screens/home/widget/bannder_widget.dart';
-import 'package:zabi/view/screens/home/widget/feature_item_widget.dart';
-import 'package:zabi/view/screens/home/widget/ramadan_schedule_widget.dart';
-import 'package:zabi/view/screens/home/widget/today_prayer_list_item.dart';
+import 'package:maeeen/helper/route_helper.dart';
+import 'package:maeeen/helper/salat_waqt_service.dart';
+import 'package:maeeen/helper/translator_helper.dart';
+import 'package:maeeen/shimmer/all_shimmer_loder.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/images.dart';
+import 'package:maeeen/util/styles.dart';
+ import 'package:maeeen/view/screens/home/widget/bannder_widget.dart';
+import 'package:maeeen/view/screens/home/widget/feature_item_widget.dart';
+import 'package:maeeen/view/screens/home/widget/ramadan_schedule_widget.dart';
+import 'package:maeeen/view/screens/home/widget/today_prayer_list_item.dart';
 
 import '../../../controller/theme_controller.dart';
 

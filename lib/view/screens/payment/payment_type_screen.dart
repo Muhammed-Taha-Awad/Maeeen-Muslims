@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:zabi/shimmer/all_shimmer_loder.dart';
-import 'package:zabi/view/screens/payment/widget/payment_bottom_sheet.dart';
+import 'package:maeeen/shimmer/all_shimmer_loder.dart';
+import 'package:maeeen/view/screens/payment/widget/payment_bottom_sheet.dart';
 import '../../../controller/donation_controller.dart';
 import '../../../controller/quran_settings_controller.dart';
 import '../../../util/dimensions.dart';

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
- import 'package:zabi/controller/quran_settings_controller.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/styles.dart';
-import 'package:zabi/view/base/custom_app_bar.dart';
+ import 'package:maeeen/controller/quran_settings_controller.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/styles.dart';
+import 'package:maeeen/view/base/custom_app_bar.dart';
 
 class HaramFoodDetaileInfoScreen extends StatelessWidget {
   final bool appBackButton;

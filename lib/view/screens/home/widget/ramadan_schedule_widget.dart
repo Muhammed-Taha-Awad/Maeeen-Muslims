@@ -3,13 +3,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
- import 'package:zabi/controller/package_prayer_time_controller.dart';
-import 'package:zabi/controller/quran_settings_controller.dart';
-import 'package:zabi/controller/todays_prayer_time_controller.dart';
-import 'package:zabi/helper/translator_helper.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/images.dart';
-import 'package:zabi/util/styles.dart';
+ import 'package:maeeen/controller/package_prayer_time_controller.dart';
+import 'package:maeeen/controller/quran_settings_controller.dart';
+import 'package:maeeen/controller/todays_prayer_time_controller.dart';
+import 'package:maeeen/helper/translator_helper.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/images.dart';
+import 'package:maeeen/util/styles.dart';
 
 class RamadanScheduleWidget extends StatefulWidget {
   const RamadanScheduleWidget({super.key});

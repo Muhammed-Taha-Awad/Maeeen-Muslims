@@ -7,12 +7,12 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:zabi/controller/quran_settings_controller.dart';
-import 'package:zabi/helper/translator_helper.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/images.dart';
-import 'package:zabi/util/styles.dart';
-import 'package:zabi/view/screens/home/widget/feature_item_widget.dart';
+import 'package:maeeen/controller/quran_settings_controller.dart';
+import 'package:maeeen/helper/translator_helper.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/images.dart';
+import 'package:maeeen/util/styles.dart';
+import 'package:maeeen/view/screens/home/widget/feature_item_widget.dart';
 
 class ListViewShimmer extends StatelessWidget {
   const ListViewShimmer({super.key});

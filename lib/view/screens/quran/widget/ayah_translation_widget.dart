@@ -1,18 +1,18 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:share/share.dart';
-import 'package:zabi/controller/bookmark_controller.dart';
-import 'package:zabi/controller/quran_settings_controller.dart';
-import 'package:zabi/controller/quran_controller.dart';
-import 'package:zabi/data/model/response/bookmark_model.dart';
+import 'package:maeeen/controller/bookmark_controller.dart';
+import 'package:maeeen/controller/quran_settings_controller.dart';
+import 'package:maeeen/controller/quran_controller.dart';
+import 'package:maeeen/data/model/response/bookmark_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:zabi/shimmer/all_shimmer_loder.dart';
-import 'package:zabi/util/app_constants.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/images.dart';
-import 'package:zabi/util/styles.dart';
+import 'package:maeeen/shimmer/all_shimmer_loder.dart';
+import 'package:maeeen/util/app_constants.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/images.dart';
+import 'package:maeeen/util/styles.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AyanTranslationWidget extends StatelessWidget {

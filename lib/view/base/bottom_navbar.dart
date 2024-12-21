@@ -5,13 +5,13 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:zabi/data/repository/quran_setting_repo.dart';
-import 'package:zabi/util/images.dart';
-import 'package:zabi/view/screens/category/category_screen.dart';
-import 'package:zabi/view/screens/compass/compass_screen.dart';
-import 'package:zabi/view/screens/home/home_screen.dart';
-import 'package:zabi/view/screens/nearby_mosque/nearby_mosque_screen.dart';
-import 'package:zabi/view/screens/quran/sura_list_screen.dart';
+import 'package:maeeen/data/repository/quran_setting_repo.dart';
+import 'package:maeeen/util/images.dart';
+import 'package:maeeen/view/screens/category/category_screen.dart';
+import 'package:maeeen/view/screens/compass/compass_screen.dart';
+import 'package:maeeen/view/screens/home/home_screen.dart';
+import 'package:maeeen/view/screens/nearby_mosque/nearby_mosque_screen.dart';
+import 'package:maeeen/view/screens/quran/sura_list_screen.dart';
 
 class BottomNavbarScreen extends StatefulWidget {
   const BottomNavbarScreen({super.key});

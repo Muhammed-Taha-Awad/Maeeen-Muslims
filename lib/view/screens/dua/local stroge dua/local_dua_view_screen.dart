@@ -1,14 +1,14 @@
 // ignore_for_file: deprecated_member_use
 
- import 'package:zabi/controller/dua_controller.dart';
-import 'package:zabi/controller/quran_settings_controller.dart';
+ import 'package:maeeen/controller/dua_controller.dart';
+import 'package:maeeen/controller/quran_settings_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:zabi/data/model/response/local_dua_model.dart';
-import 'package:zabi/util/images.dart';
-import 'package:zabi/util/styles.dart';
-import 'package:zabi/view/base/custom_app_bar.dart';
+import 'package:maeeen/data/model/response/local_dua_model.dart';
+import 'package:maeeen/util/images.dart';
+import 'package:maeeen/util/styles.dart';
+import 'package:maeeen/view/base/custom_app_bar.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../../../util/dimensions.dart';
 

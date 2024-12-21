@@ -1,13 +1,13 @@
-import 'package:zabi/controller/dhikr_controller.dart';
-import 'package:zabi/data/repository/dikir_list_repo.dart';
-import 'package:zabi/helper/route_helper.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/view/base/custom_app_bar.dart';
+import 'package:maeeen/controller/dhikr_controller.dart';
+import 'package:maeeen/data/repository/dikir_list_repo.dart';
+import 'package:maeeen/helper/route_helper.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/view/base/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:zabi/view/base/tabbar_button.dart';
-import 'package:zabi/view/screens/dhikr/api%20dhikr/api_dikir_widget.dart';
-import 'package:zabi/view/screens/dhikr/local%20stroge%20dhikr/user_added_dikir_list_widget.dart';
+import 'package:maeeen/view/base/tabbar_button.dart';
+import 'package:maeeen/view/screens/dhikr/api%20dhikr/api_dikir_widget.dart';
+import 'package:maeeen/view/screens/dhikr/local%20stroge%20dhikr/user_added_dikir_list_widget.dart';
 
 class DhikrScreen extends StatefulWidget {
   final bool appBackButton;

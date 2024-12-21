@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:zabi/theme/light_theme.dart';
-import 'package:zabi/util/app_constants.dart';
+import 'package:maeeen/theme/light_theme.dart';
+import 'package:maeeen/util/app_constants.dart';
 import 'controller/localization_controller.dart';
 import 'controller/theme_controller.dart';
 import 'helper/get_di.dart' as di;

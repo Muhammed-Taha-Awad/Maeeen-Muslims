@@ -6,13 +6,13 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart';
- import 'package:zabi/controller/quran_settings_controller.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/images.dart';
-import 'package:zabi/view/base/custom_app_bar.dart';
-import 'package:zabi/view/screens/language/language_dw_widget.dart';
-import 'package:zabi/view/screens/notification/notification_dw_widget.dart';
-import 'package:zabi/view/screens/settings/widgets/item_widgets.dart';
+ import 'package:maeeen/controller/quran_settings_controller.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/images.dart';
+import 'package:maeeen/view/base/custom_app_bar.dart';
+import 'package:maeeen/view/screens/language/language_dw_widget.dart';
+import 'package:maeeen/view/screens/notification/notification_dw_widget.dart';
+import 'package:maeeen/view/screens/settings/widgets/item_widgets.dart';
 
 class SettingsScreen extends StatefulWidget {
   final bool appBackButton;

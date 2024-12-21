@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:zabi/shimmer/all_shimmer_loder.dart';
+import 'package:maeeen/shimmer/all_shimmer_loder.dart';
 
 import '../../../controller/donation_controller.dart';
 import '../../../controller/quran_settings_controller.dart';

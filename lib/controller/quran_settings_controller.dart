@@ -1,10 +1,10 @@
-import 'package:zabi/data/model/response/haram_food_list_model.dart';
-import 'package:zabi/data/model/response/mosque_settings_model.dart';
-import 'package:zabi/data/model/response/translator_model.dart';
+import 'package:maeeen/data/model/response/haram_food_list_model.dart';
+import 'package:maeeen/data/model/response/mosque_settings_model.dart';
+import 'package:maeeen/data/model/response/translator_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:zabi/data/repository/quran_setting_repo.dart';
+import 'package:maeeen/data/repository/quran_setting_repo.dart';
 
 class QuranSettingsController extends GetxController implements GetxService {
   final QuranSettingsRepo quranSettingRepo;
@@ -39,10 +39,8 @@ class QuranSettingsController extends GetxController implements GetxService {
   void getArabicFontSizeFromLocalStorage() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     double? storedFontSize = prefs.getDouble(arabicFontSizeKey);
-    if (storedFontSize != null) {
-      arabicFontSize.value = storedFontSize;
+    arabicFontSize.value = storedFontSize;
     }
-  }
 
 //==============================//
 //   Translate Font size part   //
@@ -64,10 +62,8 @@ class QuranSettingsController extends GetxController implements GetxService {
   void getTranslateFontSizeFromLocalStorage() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     double? storedFontSize = prefs.getDouble(translateFontSizeKey);
-    if (storedFontSize != null) {
-      translateFontSize.value = storedFontSize;
+    translateFontSize.value = storedFontSize;
     }
-  }
 
 //=================================//
 //    Change Arabic font part     //
@@ -97,10 +93,8 @@ class QuranSettingsController extends GetxController implements GetxService {
   Future<void> loadArabicFontPreference() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String? font = prefs.getString(selectedFontKey);
-    if (font != null) {
-      selectedFont.value = font;
-    }
-    update();
+    selectedFont.value = font;
+      update();
   }
 
 //=================================//
@@ -120,7 +114,7 @@ class QuranSettingsController extends GetxController implements GetxService {
       isTranslateLoading(true);
       update();
       // final response = await http
-      //     .get(Uri.parse("https://zabi-dev.theme29.com/api/translators"));
+      //     .get(Uri.parse("https://maeeen-dev.theme29.com/api/translators"));
 
       final response = await quranSettingRepo.getTranslatorRepo();
 

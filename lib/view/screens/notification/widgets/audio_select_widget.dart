@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:zabi/controller/noti_sound_controller.dart';
-import 'package:zabi/helper/salat_waqt_service.dart';
-import 'package:zabi/util/dimensions.dart';
-import 'package:zabi/util/styles.dart';
+import 'package:maeeen/controller/noti_sound_controller.dart';
+import 'package:maeeen/helper/salat_waqt_service.dart';
+import 'package:maeeen/util/dimensions.dart';
+import 'package:maeeen/util/styles.dart';
 
 class NotificationSoundSelector extends StatefulWidget {
   const NotificationSoundSelector({super.key});

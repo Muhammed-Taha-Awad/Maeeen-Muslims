@@ -1,11 +1,11 @@
 // ignore_for_file: deprecated_member_use, unrelated_type_equality_checks
 
-import 'package:zabi/controller/quran_controller.dart';
-import 'package:zabi/helper/route_helper.dart';
+import 'package:maeeen/controller/quran_controller.dart';
+import 'package:maeeen/helper/route_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:zabi/shimmer/all_shimmer_loder.dart';
+import 'package:maeeen/shimmer/all_shimmer_loder.dart';
 import '../../../../controller/bookmark_controller.dart';
 import '../../../../controller/quran_settings_controller.dart';
 import '../../../../util/dimensions.dart';

@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:zabi/data/model/response/juz_list_model.dart';
-import 'package:zabi/data/model/response/sifat_name_details_model.dart';
-import 'package:zabi/data/model/response/sifat_name_list_model.dart';
-import 'package:zabi/data/model/response/sura_detile_model.dart';
-import 'package:zabi/data/model/response/sura_list_model.dart';
-import 'package:zabi/data/repository/sifatname_list_repo.dart';
+import 'package:maeeen/data/model/response/juz_list_model.dart';
+import 'package:maeeen/data/model/response/sifat_name_details_model.dart';
+import 'package:maeeen/data/model/response/sifat_name_list_model.dart';
+import 'package:maeeen/data/model/response/sura_detile_model.dart';
+import 'package:maeeen/data/model/response/sura_list_model.dart';
+import 'package:maeeen/data/repository/sifatname_list_repo.dart';
 
 class QuranController extends GetxController implements GetxService {
   final QuranRepo quranRepo;
